@@ -1,0 +1,17 @@
+.intro__action-label {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 320px) {
+  .intro__action-label {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
