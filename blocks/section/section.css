@@ -1,0 +1,8 @@
+.section {
+  box-sizing: border-box;
+  margin: 0;
+  padding-top: var(--section_space_top);
+  padding-bottom: var(--section_space_bottom);
+  padding-left: var(--section_space_left);
+  padding-right: var(--section_space_right);
+}

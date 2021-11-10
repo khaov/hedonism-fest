@@ -1,0 +1,50 @@
+.page {
+
+  --color-accident: #FFD400;
+  --color-primary: #7100FF;
+  --color-dark-primary: #3B3748;
+  --color-dark-secondary: #96949E;
+  --color-light-primary: #FCFAF7;
+  --color-light-secondary: #EBE9ED;
+  --color-warning-error: #F40934;
+
+  --section_space_top: 80px;
+  --section_space_bottom: 80px;
+  --section_space_left: 40px;
+  --section_space_right: 40px;
+
+  max-width: 1440px;
+  min-width: 360px;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'TT-Firs-Neue', 'Arial', sans-serif;
+  font-weight: 400;
+  color: var(--color-dark-primary);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 767px) {
+  .page {
+    --section_space_top: 40px;
+    --section_space_bottom: 40px;
+    --section_space_left: 20px;
+    --section_space_right: 20px;
+  }
+}
+
+/* на время разработки, удалить на финише */
+section,
+div,
+ul, li, p, h1, h2, h3, h4, img, article, figure {
+  outline: 1px solid blue;
+}
+
+
+
