@@ -1,0 +1,16 @@
+.popup__container_type_view {
+  min-width: 240px;
+  width: fit-content;
+  min-width: none;
+  border-radius: 0;
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+@media screen and (max-width: 468px) {
+  .popup__container_type_view {
+    max-width: 75vw;
+    margin-top: 28px;
+  }
+}
