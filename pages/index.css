@@ -38,3 +38,10 @@
 @import url(../blocks/intro/__action/intro__action.css);
 @import url(../blocks/intro/__action-label/intro__action-label.css);
 @import url(../blocks/intro/__action-link/intro__action-link.css);
+
+@import url(../blocks/about/about.css);
+@import url(../blocks/about/__title/about__title.css);
+@import url(../blocks/about/__item/about__item.css);
+@import url(../blocks/about/__text/about__text.css);
+@import url(../blocks/about/__description/about__description.css);
+@import url(../blocks/about/__link/about__link.css);

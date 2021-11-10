@@ -1,72 +1,83 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ночлежка</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pages/index.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  </head>
-  <body class="page">
 
-    <!-- Header -->
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ночлежка</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
 
-    <header class="header section">
-      <a href="/"><img src="./images/logo.svg" alt="Гедонизмфест" class="header__logo"></a>
-      <button class="button button_type_button button_type_location header__location link" type="button">Санкт-Петербург</button>
-      <nav class="header__navigation">
-        <ul class="header__navigation-links">
-          <li><a href="#" class="button button_type_link button_type_navigation link">куда пойти</a></li>
-          <li><a href="#" class="button button_type_link button_type_navigation link">стать участником</a></li>
-          <li><a href="#" class="button button_type_link button_type_navigation link">о фестивале</a></li>
-        </ul>
-      </nav>
-      <a href="#" class="button button_type_link button_type_header_like header__like link">хочу пойти</a>
-      <button class="button button_type_button button_color_primary header__button-help link" type="button">поддержать</button>
-      <button class="button_type_button button_type_header_menu link" type="button"></button>
-    </header>
+<body class="page">
 
-    <!-- Content -->
+  <!-- Header -->
 
-    <main class="content page__content">
-      <section class="intro" aria-label="Гедонизмфест">
+  <header class="header section">
+    <a href="/"><img src="./images/logo.svg" alt="Гедонизмфест" class="header__logo"></a>
+    <button class="button button_type_button button_type_location header__location link"
+      type="button">Санкт-Петербург</button>
+    <nav class="header__navigation">
+      <ul class="header__navigation-links">
+        <li><a href="#" class="button button_type_link button_type_navigation link">куда пойти</a></li>
+        <li><a href="#" class="button button_type_link button_type_navigation link">стать участником</a></li>
+        <li><a href="#" class="button button_type_link button_type_navigation link">о фестивале</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="button button_type_link button_type_header_like header__like link">хочу пойти</a>
+    <button class="button button_type_button button_color_primary header__button-help link"
+      type="button">поддержать</button>
+    <button class="button_type_button button_type_header_menu link" type="button"></button>
+  </header>
 
-          <div class="intro__title"> </div>
+  <!-- Content -->
 
-          <div class="intro__action">
-              <p class="intro__action-label">узнать больше</p>
-              <a href="" class="intro__action-link"></a>
+  <main class="content page__content">
+    <section class="intro" aria-label="Гедонизмфест">
+
+      <div class="intro__title"> </div>
+
+      <div class="intro__action">
+        <p class="intro__action-label">узнать больше</p>
+        <a href="" class="intro__action-link"></a>
+      </div>
+    </section>
+
+    <section class="about" aria-label="Описание фестиваля">
+
+      <p class="about__title about__item">просто приятно помогать</p>
+      <div class="about__description about__item">
+        <p class="about__text">Пейте кофе в любимых заведениях, посещайте интересные мероприятия, устраивайте домашние
+          посиделки с друзьями — и помогайте бездомным!</p>
+        <p class="about__text">Целую неделю 26 апреля — 2 мая вся выручка будет перечислена в пользу бездомных.</p>
+        <a href="" class="about__link button">узнать подробнее</a>
+      </div>
+    </section>
+
+    <section class="section numbers">
+      <h2 class="title">цифры дня</h2>
+      <ul class="numbers__list">
+        <li class="numbers__item">
+          <div class="number">
+            <img class="number__illustration" src="" alt="">
           </div>
-      </section>
+        </li>
+      </ul>
+    </section>
 
-      <section class="section numbers">
-        <h2 class="title">цифры дня</h2>
-        <ul class="numbers__list">
-          <li class="numbers__item">
-            <div class="number">
-              <img class="number__illustration"src="" alt="">
-             
-            </div>
-          </li>
+  <!-- Footer -->
 
-        </ul>
-      </section>
-    </main>
+  <footer class="footer section">
+  </footer>
 
-      <!-- Footer -->
+  </main>
+  <!-- Scripts -->
+  <script src="scripts/index.js" defer></script>
 
-      <footer class="footer section">
-      </footer>
-
-    </div>
-
-    <!-- Scripts -->
-    <script src="scripts/index.js" defer></script>
-
-  </body>
+</body>
 
 </html>
