@@ -1,0 +1,22 @@
+.about {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 80px;
+  max-width: 1440px;
+  min-height: 250px;
+  background-color:  var(--color-light-primary);
+  color: var(--color-dark-primary);
+
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+}
+
+
+@media screen and (max-width: 500px) {
+  .about {
+    flex-direction: column;
+    row-gap: 12px;
+    padding: 40px 20px 40px 20px;
+  }
+}
