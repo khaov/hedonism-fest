@@ -7,8 +7,8 @@
   --color-light-secondary: #EBE9ED;
   --color-warning-error: #F40934;
 
-  --section_space_top: 80px;
-  --section_space_bottom: 80px;
-  --section_space_left: 40px;
-  --section_space_right: 40px;
+  --section-space-top: 80px;
+  --section-space-bottom: 80px;
+  --section-space-left: 40px;
+  --section-space-right: 40px;
 }

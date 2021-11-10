@@ -1,0 +1,20 @@
+.button_type_header_like {
+  border: none;
+  border-radius: 0;
+  position: relative;
+  padding-left: 56px;
+}
+
+.button_type_header_like::before {
+  content: "";
+  position: absolute;
+  top: 12px;
+  left: 26px;
+  background-image: url(../../../images/like.svg);
+  width: 24px;
+  height: 24px;
+}
+
+.button_type_header_like:hover {
+  box-shadow: 0px 4px 12px rgba(59, 55, 72, 0.15);
+}

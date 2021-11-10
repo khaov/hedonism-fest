@@ -1,0 +1,10 @@
+.button_type_navigation {
+  border: none;
+  border-radius: 0;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.button_type_navigation:hover {
+  box-shadow: 0px 4px 12px rgba(59, 55, 72, 0.15);
+}
