@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Ночлежка</title>
     <meta name="description" content="">
     <meta name="keywords" content="">
     <meta name="author" content="">
@@ -11,32 +11,60 @@
     <link rel="stylesheet" href="pages/index.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   </head>
-  <body>
-    <div class="page">
+  <body class="page">
 
-      <!-- Header -->
+    <!-- Header -->
 
-      <header class="header">
+    <header class="header section">
+      <a href="/"><img src="./images/logo.svg" alt="Гедонизмфест" class="header__logo"></a>
+      <button class="button button_type_button button_type_location header__location link" type="button">Санкт-Петербург</button>
+      <nav class="header__navigation">
+        <ul class="header__navigation-links">
+          <li><a href="#" class="button button_type_link button_type_navigation link">куда пойти</a></li>
+          <li><a href="#" class="button button_type_link button_type_navigation link">стать участником</a></li>
+          <li><a href="#" class="button button_type_link button_type_navigation link">о фестивале</a></li>
+        </ul>
+      </nav>
+      <a href="#" class="button button_type_link button_type_header_like header__like link">хочу пойти</a>
+      <button class="button button_type_button button_color_primary header__button-help link" type="button">поддержать</button>
+      <button class="button_type_button button_type_header_menu link" type="button"></button>
+    </header>
 
-      </header>
+    <!-- Content -->
 
-      <!-- Content -->
+    <main class="content page__content">
+      <section class="intro" aria-label="Гедонизмфест">
 
-      <main class="content">
+          <div class="intro__title"> </div>
 
-      </main>
+          <div class="intro__action">
+              <p class="intro__action-label">узнать больше</p>
+              <a href="" class="intro__action-link"></a>
+          </div>
+      </section>
+
+      <section class="numbers">
+        <ul class="numbers__list">
+          <li class="numbers__item">
+
+          </li>
+          <li class="numbers__item">
+
+          </li>
+        </ul>
+      </section>
+    </main>
 
       <!-- Footer -->
 
-      <footer class="footer">
-
+      <footer class="footer section">
       </footer>
 
     </div>
 
     <!-- Scripts -->
-    <!--
     <script src="scripts/index.js" defer></script>
-    -->
+
   </body>
+
 </html>

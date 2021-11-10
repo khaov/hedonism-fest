@@ -1,0 +1,23 @@
+:root {
+  --color-accident: #FFD400;
+  --color-primary: #7100FF;
+  --color-dark-primary: #3B3748;
+  --color-dark-secondary: #96949E;
+  --color-light-primary: #FCFAF7;
+  --color-light-secondary: #EBE9ED;
+  --color-warning-error: #F40934;
+
+  --section-space-top: 80px;
+  --section-space-bottom: 80px;
+  --section-space-left: 40px;
+  --section-space-right: 40px;
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --section-space-top: 40px;
+    --section-space-bottom: 40px;
+    --section-space-left: 20px;
+    --section-space-right: 20px;
+  }
+}

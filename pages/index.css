@@ -1,4 +1,40 @@
 /* Vendor */
 
+@import url(../debug.css); /* удалить перед ревью */
+
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/title/title.css);
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/link/link.css);
+
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_type/button_type_link.css);
+@import url(../blocks/button/_type/button_type_button.css);
+@import url(../blocks/button/_type/button_type_circle.css);
+@import url(../blocks/button/_type/button_type_location.css);
+@import url(../blocks/button/_type/button_type_navigation.css);
+@import url(../blocks/button/_type/button_type_header_like.css);
+@import url(../blocks/button/_type/button_type_header_menu.css);
+@import url(../blocks/button/_color/button_color_primary.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__content/page__content.css);
+@import url(../blocks/page/__position/page__position.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__location/header__location.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__navigation-links/header__navigation-links.css);
+@import url(../blocks/header/__like/header__like.css);
+@import url(../blocks/header/__button-help/header__button-help.css);
+
+@import url(../blocks/section/section.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__action/intro__action.css);
+@import url(../blocks/intro/__action-label/intro__action-label.css);
+@import url(../blocks/intro/__action-link/intro__action-link.css);
