@@ -17,6 +17,7 @@
 @import url(../blocks/button/_type/button_type_location.css);
 @import url(../blocks/button/_type/button_type_navigation.css);
 @import url(../blocks/button/_type/button_type_header_like.css);
+@import url(../blocks/button/_type/button_type_header_menu.css);
 @import url(../blocks/button/_color/button_color_primary.css);
 
 @import url(../blocks/page/page.css);
@@ -29,3 +30,4 @@
 @import url(../blocks/header/__navigation/header__navigation.css);
 @import url(../blocks/header/__navigation-links/header__navigation-links.css);
 @import url(../blocks/header/__like/header__like.css);
+@import url(../blocks/header/__button-help/header__button-help.css);
