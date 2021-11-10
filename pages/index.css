@@ -38,3 +38,19 @@
 @import url(../blocks/intro/__action/intro__action.css);
 @import url(../blocks/intro/__action-label/intro__action-label.css);
 @import url(../blocks/intro/__action-link/intro__action-link.css);
+
+
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__text/_email/footer__text_email.css);
+@import url(../blocks/footer/__list/footer__list.css);
+@import url(../blocks/footer/__list-item/footer__list-item.css);
+@import url(../blocks/footer/__img/footer__img.css);
+@import url(../blocks/footer/__org/footer__org.css);
+@import url(../blocks/footer/__partners/footer__partners.css);
+@import url(../blocks/footer/__social/footer__social.css);
+@import url(../blocks/footer/__social-networks/footer__social-networks.css);
+@import url(../blocks/footer/__social-icon/footer__social-icon.css);
+@import url(../blocks/footer/__link-icon/footer__link-icon.css);
