@@ -1,18 +1,4 @@
 .page {
-
-  --color-accident: #FFD400;
-  --color-primary: #7100FF;
-  --color-dark-primary: #3B3748;
-  --color-dark-secondary: #96949E;
-  --color-light-primary: #FCFAF7;
-  --color-light-secondary: #EBE9ED;
-  --color-warning-error: #F40934;
-
-  --section_space_top: 80px;
-  --section_space_bottom: 80px;
-  --section_space_left: 40px;
-  --section_space_right: 40px;
-
   max-width: 1440px;
   min-width: 360px;
   height: 100vh;
@@ -38,13 +24,3 @@
     --section_space_right: 20px;
   }
 }
-
-/* на время разработки, удалить на финише */
-section,
-div,
-ul, li, p, h1, h2, h3, h4, img, article, figure {
-  outline: 1px solid blue;
-}
-
-
-

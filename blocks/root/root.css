@@ -1,0 +1,14 @@
+:root {
+  --color-accident: #FFD400;
+  --color-primary: #7100FF;
+  --color-dark-primary: #3B3748;
+  --color-dark-secondary: #96949E;
+  --color-light-primary: #FCFAF7;
+  --color-light-secondary: #EBE9ED;
+  --color-warning-error: #F40934;
+
+  --section_space_top: 80px;
+  --section_space_bottom: 80px;
+  --section_space_left: 40px;
+  --section_space_right: 40px;
+}
