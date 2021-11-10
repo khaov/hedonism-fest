@@ -1,13 +1,17 @@
 @font-face {
+  font-family: 'TT-Firs-Neue';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
   src:  url('fonts/tt-firs-neue-regular.woff2') format('woff2'),
         url('fonts/tt-firs-neue-regular.woff') format('woff');
-  font-family: 'TT-Firs-Neue';
-  font-weight: 400;
 }
 
 @font-face {
+  font-family: 'TT-Firs-Neue';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
   src:  url('fonts/tt-firs-neue-medium.woff2') format('woff2'),
         url('fonts/tt-firs-neue-medium.woff') format('woff');
-  font-family: 'TT-Firs-Neue';
-  font-weight: 500;
 }
