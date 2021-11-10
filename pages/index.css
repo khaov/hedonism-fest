@@ -38,3 +38,7 @@
 @import url(../blocks/intro/__action/intro__action.css);
 @import url(../blocks/intro/__action-label/intro__action-label.css);
 @import url(../blocks/intro/__action-link/intro__action-link.css);
+
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__list/numbers__list.css);
+@import url(../blocks/numbers/__item/numbers__item.css);
