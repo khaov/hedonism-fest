@@ -12,3 +12,12 @@
   --section-space-left: 40px;
   --section-space-right: 40px;
 }
+
+@media screen and (max-width: 767px) {
+  :root {
+    --section-space-top: 40px;
+    --section-space-bottom: 40px;
+    --section-space-left: 20px;
+    --section-space-right: 20px;
+  }
+}

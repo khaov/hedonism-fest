@@ -3,6 +3,7 @@
   border-radius: 0;
   position: relative;
   padding-left: 56px;
+  text-overflow: ellipsis;
 }
 
 .button_type_location::before {
@@ -17,4 +18,10 @@
 
 .button_type_location:hover {
   box-shadow: 0px 4px 12px rgba(59, 55, 72, 0.15);
+}
+
+@media screen and (max-width: 768px) {
+  .button_type_location {
+    display: none;
+  }
 }
