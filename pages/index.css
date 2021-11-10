@@ -16,8 +16,16 @@
 @import url(../blocks/button/_color/button_color_primary.css);
 
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/__content/page__content.css);
 @import url(../blocks/page/__position/page__position.css);
+
 
 @import url(../blocks/section/section.css);
 
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__action/intro__action.css);
+@import url(../blocks/intro/__action-label/intro__action-label.css);
+@import url(../blocks/intro/__action-link/intro__action-link.css);
 

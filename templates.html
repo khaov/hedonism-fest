@@ -1,0 +1,81 @@
+
+
+    <div class="page page__position">
+
+      <!-- Header -->
+      <header class="header section">
+
+        <!-- Создал универсальные блоки для общего использования во всех секциях -->
+
+        <!-- блок title - используется с одними и теми же параметрами шрифта во всех секциях -->
+        <!-- для позиционирования title, можно сделать микс - элемент блока в котором находится title, например action-title и в нем позиционировать -->
+        <h2 class="title">цифры дня</h2>
+
+
+        <!-- блок subtitle - используется с одними и теми же параметрами шрифта, для текста под заголовками -->
+        <p class="subtitle">Ставь хештег и попади в ленту на сайте</p>
+
+        <!-- Пример title и subtitle -->
+        <h2 class="title">2 500</h2>
+        <p class="subtitle">cтолько обедов приготовили для нуждающихся</p>
+
+        <!-- Для блока csrollable cards можно написать модификаторы title и subtitle где потребуется лишь уменьшить сайз и хейт-->
+
+
+        <!-- создал блок button для всех кнопок/ссылок на странице -->
+
+        <!-- если переход на другую страницу то это ссылка -->
+        <br>
+        <a href="#" class="button button_type_link link">узнать подробнее</a>
+        <br><br>
+        <a href="#" class="button button_type_link button_color_primary link">смотреть все события</a>
+        <br><br>
+        <div style="background-color: #FFD400;">
+          <a href="#" class="button button_type_link link">стать участником</a>
+        </div>
+
+        <br>
+        <!-- если перехода нет, то это кнопка -->
+        <button class="button button_type_button button_color_primary link" type="button">поддержать</button>
+        <br><br>
+        <button class="button button_type_circle button_color_primary link" type="button"></button>
+
+
+
+      </header>
+
+      <!--
+        Используйте переменные цветов из файла page.css это даст больше универсальности и быструю смену цветовой гаммы сайта из одного места
+
+        --color-accident: #FFD400;
+        --color-primary: #7100FF;
+        --color-dark-primary: #3B3748;
+        --color-dark-secondary: #96949E;
+        --color-light-primary: #FCFAF7;
+        --color-light-secondary: #EBE9ED;
+        --color-warning-error: #F40934;
+
+        Пример: color: var(--color-dark-primary);
+      -->
+
+
+      <!-- Для всех секций используйте класс section, в нем уже прописаны падинги секций.
+        В случае если где то паддинги не нужны, или нужны не все, то в классе блока обнуляет нужный паддинг.
+      Практиески все блоки за некоторым исключением используют поля сверху и снизу по 80px, слева и справа по 40,
+      на мобилке в 2 раза меньше-->
+
+      <!-- Content -->
+      <main class="content">
+
+        <!-- Для позиционирования секции (внешние отступы, 100% width) используйте микс - элемент класса content,
+        например для секции action создайте элемент content-action в блоке content -->
+      </main>
+
+      <!-- Для позиционирования секции (внешние отступы, 100% width) используйте микс - элемент класса footer,
+        например для секции footer создайте элемент page-footer в блоке page -->
+      <!-- Footer -->
+      <footer class="footer section">
+
+      </footer>
+
+    </div>
