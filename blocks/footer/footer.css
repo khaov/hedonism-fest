@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 40px;
+  background-color: #EBE9ED;
+  column-gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    column-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    padding: 40px 20px;
+    flex-direction: column;
+    justify-content: left;
+    background-color: #ffd400;
+  }
+}

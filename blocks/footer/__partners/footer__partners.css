@@ -1,0 +1,12 @@
+.footer__partners {
+  width: 427px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 576px) {
+  .footer__partners {
+    width: 100%;
+  }
+}
+

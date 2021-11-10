@@ -1,0 +1,14 @@
+.footer__social-networks {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 576px) {
+  .footer__social-networks {
+    gap: 16px;
+  }
+}
