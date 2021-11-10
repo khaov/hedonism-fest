@@ -14,13 +14,5 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
-}
 
-@media screen and (max-width: 767px) {
-  .page {
-    --section_space_top: 40px;
-    --section_space_bottom: 40px;
-    --section_space_left: 20px;
-    --section_space_right: 20px;
-  }
 }
