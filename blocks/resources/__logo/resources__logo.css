@@ -1,0 +1,9 @@
+.resources__logo {
+  margin-right: 24px;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.resources__logo:last-child {
+  margin-right: 0;
+}

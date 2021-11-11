@@ -1,0 +1,16 @@
+.footer__link-icon {
+  min-width: 24px;
+  height: 24px;
+  background-image: url('../../../images/link-icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+@media screen and (max-width: 576px) {
+  .footer__link-icon {
+    min-width: 20px;
+    height: 20px;
+  }
+}

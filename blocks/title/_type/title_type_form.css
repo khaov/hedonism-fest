@@ -1,0 +1,11 @@
+.title_type_form {
+  font-size: 32px;
+  line-height: 32px;
+}
+
+@media screen and (max-width: 630px) {
+  .title_type_form {
+    font-size: 24px;
+    line-height: 28px;
+  }
+}

@@ -1,0 +1,5 @@
+.button_color_primary {
+  background-color: var(--color-primary);
+  color: var(--color-light-primary);
+  border: none;
+}

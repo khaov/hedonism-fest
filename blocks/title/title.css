@@ -1,0 +1,18 @@
+.title {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  text-transform: lowercase;
+  color: var(--color-dark-primary);
+}
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 0;
+  }
+}
