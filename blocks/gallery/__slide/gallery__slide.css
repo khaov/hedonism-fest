@@ -1,0 +1,17 @@
+.gallery__slide {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--color-dark-secondary);
+  margin-right: 12px;
+  transition: opacity .2s linear;
+}
+
+.gallery__slide:last-child {
+  margin-right: 0;
+}
+
+.gallery__slide:hover {
+  cursor: pointer;
+  opacity: .5;
+}

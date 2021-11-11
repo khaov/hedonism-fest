@@ -1,0 +1,12 @@
+.gallery__slider {
+  display: none;
+}
+
+@media screen and (max-width: 500px) {
+  .gallery__slider {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 12px;
+  }
+}
