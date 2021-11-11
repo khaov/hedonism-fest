@@ -1,0 +1,9 @@
+.footer__org {
+  width: 310px;
+}
+
+@media screen and (max-width: 576px) {
+  .footer__org {
+    width: 100%;
+  }
+}

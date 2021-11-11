@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,13 +12,15 @@
     <link rel="stylesheet" href="pages/index.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
   </head>
+
   <body class="page">
 
     <!-- Header -->
 
     <header class="header section">
       <a href="/"><img src="./images/logo.svg" alt="Гедонизмфест" class="header__logo"></a>
-      <button class="button button_type_button button_type_location header__location link" type="button">Санкт-Петербург</button>
+      <button class="button button_type_button button_type_location header__location link"
+        type="button">Санкт-Петербург</button>
       <nav class="header__navigation">
         <ul class="header__navigation-links">
           <li><a href="#" class="button button_type_link button_type_navigation link">куда пойти</a></li>
@@ -26,7 +29,8 @@
         </ul>
       </nav>
       <a href="#" class="button button_type_link button_type_header_like header__like link">хочу пойти</a>
-      <button class="button button_type_button button_color_primary header__button-help link" type="button">поддержать</button>
+      <button class="button button_type_button button_color_primary header__button-help link"
+        type="button">поддержать</button>
       <button class="button_type_button button_type_header_menu link" type="button"></button>
     </header>
 
@@ -35,34 +39,81 @@
     <main class="content page__content">
       <section class="intro" aria-label="Гедонизмфест">
 
-          <div class="intro__title"> </div>
+        <div class="intro__title"> </div>
 
-          <div class="intro__action">
-              <p class="intro__action-label">узнать больше</p>
-              <a href="" class="intro__action-link"></a>
-          </div>
+        <div class="intro__action">
+          <p class="intro__action-label">узнать больше</p>
+          <a href="#section__about" class="intro__action-link"></a>
+        </div>
       </section>
 
-      <section class="section numbers">
-        <h2 class="title">цифры дня</h2>
-        <ul class="numbers__list">
-          <li class="numbers__item">
-            <div class="number">
-              <img class="number__illustration"src="" alt="">
+      <section class="about" aria-label="Описание фестиваля" id="section__about">
 
-            </div>
-          </li>
-
-        </ul>
+        <p class="about__title about__item">просто приятно помогать</p>
+        <div class="about__description about__item">
+          <p class="about__text">Пейте кофе в любимых заведениях, посещайте интересные мероприятия, устраивайте домашние
+            посиделки с друзьями — и помогайте бездомным!</p>
+          <p class="about__text">Целую неделю 26 апреля — 2 мая вся выручка будет перечислена в пользу бездомных.</p>
+          <a href="#" target="_blank" class="about__link button">узнать подробнее</a>
+        </div>
       </section>
+
     </main>
 
     <!-- Footer -->
-
+    
     <footer class="footer section">
+      <img src="./images/footer-illustration.svg" alt="Логотип Ночлежки" class="footer__img">
+
+      <div class="footer__org">
+        <h2 class="footer__title">организатор:</h2>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <p class="footer__text">Ночлежка</p>
+            <a href="https://homeless.ru/" target="_blank" class="footer__link-icon"></a>
+          </li>
+          <li class="footer__list-item">
+            <a href="mailto:info@hedonismfest.ru" class="footer__text footer__text_email">info@hedonismfest.ru</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__partners">
+        <h2 class="footer__title">сделано с любовью:</h2>
+        <ul class="footer__list">
+          <li class="footer__list-item">
+            <p class="footer__text">Fastsol Digital</p>
+            <a href="https://fastsol.digital/" target="_blank" class="footer__link-icon"></a>
+          </li>
+          <li class="footer__list-item">
+            <p class="footer__text">shishki.collective</p>
+            <a href="https://shishki.co/" target="_blank" class="footer__link-icon"></a>
+          </li>
+          <li class="footer__list-item">
+            <p class="footer__text">студентами Яндекс.Практикума</p>
+            <a href="https://practicum.yandex.ru/" target="_blank" class="footer__link-icon"></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer__social">
+        <h2 class="footer__title">мы в соцсетях:</h2>
+        <ul class="footer__social-networks">
+          <li>
+            <a href="https://www.facebook.com/Homeless.ru/" target="_blank"><img class="footer__social-icon" src="./images/facebook.svg" alt="Facebook"></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/nochlezhka/" target="_blank"><img class="footer__social-icon" src="./images/instagram.svg" alt="Instagram"></a>
+          </li>
+          <li>
+            <a href="https://vk.com/nochlezhka" target="_blank"><img class="footer__social-icon" src="./images/vk.svg" alt="VK"></a>
+          </li>
+        </ul>
+      </div>
     </footer>
 
     <!-- Popup payment -->
+    
     <section class="popup page__popup popup_payment popup_opened">
       <div class="popup__container">
         <div class="popup__header">

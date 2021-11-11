@@ -1,0 +1,12 @@
+.footer__list-item {
+  height: 48px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  .footer__list-item {
+    height: 44px;
+    justify-content: space-between;
+  }
+}
