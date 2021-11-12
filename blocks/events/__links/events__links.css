@@ -1,0 +1,13 @@
+.events__links {
+  margin: 0;
+  margin-top: 16px;
+  padding: 0;
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  flex-basis: max-content;
+  line-height: 48px;
+}

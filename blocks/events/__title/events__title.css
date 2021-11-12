@@ -1,0 +1,30 @@
+.events__title {
+  margin: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  text-transform: lowercase;
+  max-width: 840px;
+  min-height: 104px;
+}
+
+
+
+@media  screen and (max-width: 1440px) {
+  .events__title {
+    font-size: calc(32px + (48 - 32) * (100vw - 320px) / (1440 - 320));
+    line-height: calc(36px + (52 - 36) * (100vw - 320px) / (1440 - 320));
+  }
+}
+
+
+@media  screen and (max-width: 320px) {
+  .events__title {
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+

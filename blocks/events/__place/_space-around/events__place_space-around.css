@@ -1,0 +1,21 @@
+.events__place_space-around {
+  padding: 0 40px 0 40px;
+}
+
+
+
+@media  screen and (max-width: 1440px) {
+  .events__place_space-around {
+    padding-right: calc(20px + (40 - 20) * (100vw - 320px) / (1440 - 320));
+    padding-left: calc(20px + (40 - 20) * (100vw - 320px) / (1440 - 320));
+  }
+}
+
+
+@media  screen and (max-width: 320px) {
+  .events__place_space-around {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
