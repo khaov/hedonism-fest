@@ -17,4 +17,7 @@
     height: 20px;
     background-size: 20px 20px;
   }
+  .popup__form-pseudo-radio:first-child {
+    margin-bottom: 30px;
+  }
 }
