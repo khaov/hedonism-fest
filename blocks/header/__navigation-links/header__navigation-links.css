@@ -1,8 +1,11 @@
 .header__navigation-links {
   display: flex;
+  align-items: center;
   column-gap: 8px;
   list-style-type: none;
   margin: 0;
   padding: 0;
-
+  position: relative;
+  top: 2px;
+  right: 6px;
 }

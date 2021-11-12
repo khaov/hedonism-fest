@@ -12,12 +12,14 @@
   justify-items: center;
 }
 
-
+@media screen and (max-width: 768px) {
+  .intro {
+    margin-top: 68px;
+  }
+}
 
 @media screen  and (max-width: 700px) {
-
   .intro {
     background-image: url(../../images/first-screen-background-mob.svg);
   }
-
 }
