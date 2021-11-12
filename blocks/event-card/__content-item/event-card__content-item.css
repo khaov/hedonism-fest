@@ -1,0 +1,4 @@
+.event-card__content-item {
+  display: flex;
+  justify-content: space-between;
+}
