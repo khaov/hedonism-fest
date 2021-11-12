@@ -1,0 +1,20 @@
+.popup__form-pseudo-radio {
+  display: inline-block;
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-image: url(../../../images/radio-button-disabled.svg);
+}
+
+.popup__form-pseudo-radio:first-child {
+  margin-bottom: 26px;
+}
+
+@media screen and (max-width: 630px) {
+  .popup__form-pseudo-radio {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+}

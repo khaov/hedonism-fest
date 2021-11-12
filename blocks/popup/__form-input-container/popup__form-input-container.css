@@ -1,0 +1,16 @@
+.popup__form-input-container {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  margin-top: 28px;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 630px) {
+  .popup__form-input-container {
+    gap: 29px;
+  }
+}

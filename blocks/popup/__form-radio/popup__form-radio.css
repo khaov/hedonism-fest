@@ -1,0 +1,15 @@
+.popup__form-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.popup__form-radio:checked + .popup__form-pseudo-radio {
+  background-image: url(../../../images/radio-button-checked.svg);
+}
+
+.popup__form-radio:disabled  + .popup__form-pseudo-radio {
+  background-image: url(../../../images/radio-button-disabled.svg);
+}

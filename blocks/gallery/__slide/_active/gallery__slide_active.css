@@ -1,0 +1,4 @@
+.gallery__slide_active {
+  background-color: var(--color-dark-primary);
+  opacity: 1;
+}

@@ -1,0 +1,4 @@
+.popup__payment-link {
+  color: var(--color-primary);
+  text-decoration: none;
+}
