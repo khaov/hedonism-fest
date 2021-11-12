@@ -1,0 +1,71 @@
+.numbers{
+
+}
+
+.numbers__list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 40px 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+
+.numbers__item {
+  width: 70.6%;
+  min-width: 320px;
+  max-width: 480px;
+  position: relative;
+}
+
+.numbers__item:nth-child(odd) {
+  align-self: start;
+}
+
+.numbers__item:nth-child(odd) .numbers__statistics{
+  left: 50%;
+}
+
+.numbers__item:nth-child(even) {
+  justify-self: end;
+}
+
+.numbers__item:nth-child(even) .numbers__illustration{
+  margin-top: 50%;
+}
+
+.numbers__item:nth-child(even) .numbers__statistics{
+  right: 50%;
+}
+
+
+
+.numbers__illustration {
+  padding-bottom: 100%;
+  border-radius: 50%;
+  background-color: var(--color-accident);
+  position: relative;
+}
+
+
+
+.numbers__illustration-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  bottom: 37.5%;
+  left: 0;
+}
+
+
+
+.numbers__statistics {
+  width: 100%;
+  max-width: 300px;
+  position: absolute;
+  bottom: 8.333%;
+}
+

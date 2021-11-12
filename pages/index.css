@@ -50,6 +50,10 @@
 @import url(../blocks/about/__description/about__description.css);
 @import url(../blocks/about/__link/about__link.css);
 
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__list/numbers__list.css);
+@import url(../blocks/numbers/__item/numbers__item.css);
+
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
