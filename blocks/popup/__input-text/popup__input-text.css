@@ -39,3 +39,9 @@
     line-height: 20px;
   }
 }
+
+@media screen and (max-width: 590px) {
+  .popup__input-text {
+    margin: 16px 0 30px;
+  }
+}

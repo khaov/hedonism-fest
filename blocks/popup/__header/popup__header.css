@@ -4,3 +4,9 @@
   align-items: center;
   margin-bottom: 22px;
 }
+
+@media screen and (max-width: 590px) {
+  .popup__header {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,11 @@
+.events__link-all {
+  display: block;
+  margin-top: 24px;
+  text-decoration: none;
+  width: 240px;
+
+  background-color: var(--color-primary);
+  color: var(--color-light-primary);
+
+  border-color: var(--color-primary);
+}

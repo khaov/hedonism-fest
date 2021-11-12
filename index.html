@@ -1,150 +1,352 @@
 <!DOCTYPE html>
 <html lang="ru">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ночлежка</title>
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pages/index.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ночлежка</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="pages/index.css">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+</head>
 
-  <body class="page">
+<body class="page">
 
-    <!-- Header -->
+  <!-- Header -->
 
-    <header class="header section">
-      <a href="/"><img src="./images/logo.svg" alt="Гедонизмфест" class="header__logo"></a>
-      <button class="button button_type_button button_type_location header__location link"
-        type="button">Санкт-Петербург</button>
-      <nav class="header__navigation">
-        <ul class="header__navigation-links">
-          <li><a href="#" class="button button_type_link button_type_navigation link">куда пойти</a></li>
-          <li><a href="#" class="button button_type_link button_type_navigation link">стать участником</a></li>
-          <li><a href="#" class="button button_type_link button_type_navigation link">о фестивале</a></li>
-        </ul>
-      </nav>
-      <a href="#" class="button button_type_link button_type_header_like header__like link">хочу пойти</a>
-      <button class="button button_type_button button_color_primary header__button-help link"
-        type="button">поддержать</button>
-      <button class="button_type_button button_type_header_menu link" type="button"></button>
-    </header>
+  <header class="header section">
+    <a href="/"><img src="./images/logo.svg" alt="Гедонизмфест" class="header__logo"></a>
+    <button class="button button_type_button button_type_location header__location link"
+      type="button">Санкт-Петербург</button>
+    <nav class="header__navigation">
+      <ul class="header__navigation-links">
+        <li><a href="#" class="button button_type_link button_type_navigation link">куда пойти</a></li>
+        <li><a href="#" class="button button_type_link button_type_navigation link">стать участником</a></li>
+        <li><a href="#" class="button button_type_link button_type_navigation link">о фестивале</a></li>
+      </ul>
+    </nav>
+    <a href="#" class="button button_type_link button_type_header_like header__like link">хочу пойти</a>
+    <button class="button button_type_button button_color_primary header__button-help link"
+      type="button">поддержать</button>
+    <button class="button_type_button button_type_header_menu link" type="button"></button>
+  </header>
 
-    <!-- Content -->
 
-    <main class="content page__content">
-      <section class="intro" aria-label="Гедонизмфест">
+  <!-- Content -->
 
-        <div class="intro__title"> </div>
+  <main class="content page__content">
+    <section class="intro" aria-label="Гедонизмфест">
+      <div class="intro__title"> </div>
 
-        <div class="intro__action">
-          <p class="intro__action-label">узнать больше</p>
-          <a href="#section__about" class="intro__action-link"></a>
-        </div>
-      </section>
+      <div class="intro__action">
+        <p class="intro__action-label">узнать больше</p>
+        <a href="#section__about" class="intro__action-link"></a>
+      </div>
+    </section>
 
-      <section class="about" aria-label="Описание фестиваля" id="section__about">
+    <section class="about" aria-label="Описание фестиваля" id="section__about">
 
-        <p class="about__title about__item">просто приятно помогать</p>
-        <div class="about__description about__item">
-          <p class="about__text">Пейте кофе в любимых заведениях, посещайте интересные мероприятия, устраивайте домашние
-            посиделки с друзьями — и помогайте бездомным!</p>
-          <p class="about__text">Целую неделю 26 апреля — 2 мая вся выручка будет перечислена в пользу бездомных.</p>
-          <a href="#" target="_blank" class="about__link button">узнать подробнее</a>
-        </div>
-      </section>
+      <p class="about__title about__item">просто приятно помогать</p>
+      <div class="about__description about__item">
+        <p class="about__text">Пейте кофе в любимых заведениях, посещайте интересные мероприятия, устраивайте домашние
+          посиделки с друзьями — и помогайте бездомным!</p>
+        <p class="about__text">Целую неделю 26 апреля — 2 мая вся выручка будет перечислена в пользу бездомных.</p>
+        <a href="#" target="_blank" class="about__link button">узнать подробнее</a>
+      </div>
+    </section>
 
-      <section class="section numbers">
-        <h2 class="title">цифры дня</h2>
-        <ul class="numbers__list">
-          <li class="numbers__item">
-            <div class="numbers__illustration">
-              <img class="numbers__illustration-image" src="./images/numbers-image-flowers.svg" alt="">
+    <section class="events" aria-label="События">
+      <h2 class="events__title events__place events__place_space-around">гедонизм-фест — это целая неделя, во время
+        которой просто приятно</h2>
+
+      <ul class="events__cards">
+
+        <li class="events__list-item">
+          <article class="event-card" aria-label="идентичность">
+            <button type="button" class="event-card__button event-card__button_type_like"></button>
+            <img src="./images/event-card-identity.png" alt="идентичность" class="event-card__main-picture">
+            <div class="event-card__content">
+
+              <div class="event-card__content-item">
+                <p class="event-card__text">лекция</p>
+                <p class="event-card__text">1 мая, 12:30-13:50</p>
+              </div>
+
+              <div class="event-card__content-item">
+                <div class="event-card__title-wrapper">
+                  <h2 class="event-card__title">идентичность: почему нам сложно меняться?</h2>
+                  <p class="event-card__subtitle">лектор: Мария Бархатова</p>
+                </div>
+              </div>
+
+              <div class="event-card__content-item event-card__adress">
+                <p class="event-card__text">улица Блохина, 22</p>
+                <p class="event-card__text">+ ещё 3</p>
+              </div>
             </div>
-            <div class="numbers__statistics">
-              <h3 class="numbers__title title">2 500</h3>
-              <p class="numbers__subtitle subtitle">cтолько обедов приготовили для нуждающихся</p>
+          </article>
+        </li>
+
+        <li class="events__list-item">
+          <article class="event-card" aria-label="идентичность">
+            <button type="button" class="event-card__button event-card__button_type_like"></button>
+            <img src="./images/event-card-feast.png" alt="Застолье" class="event-card__main-picture">
+            <div class="event-card__content">
+
+              <div class="event-card__content-item">
+                <p class="event-card__text">еда и напитки</p>
+                <p class="event-card__text">Пн-Вс, 10:00-22:00</p>
+              </div>
+
+              <div class="event-card__content-item">
+                <div class="event-card__title-wrapper">
+                  <h2 class="event-card__title">xачапури и вино</h2>
+                  <p class="event-card__subtitle">капучино, эспрессо и американо в пользу Ночлежки</p>
+                </div>
+              </div>
+
+              <div class="event-card__content-item event-card__adress">
+                <p class="event-card__text">Малая Конюшенная улица...</p>
+                <p class="event-card__text">+ ещё 4</p>
+              </div>
             </div>
+          </article>
+        </li>
+
+        <li class="events__list-item">
+          <article class="event-card" aria-label="кофетерапия">
+            <button type="button" class="event-card__button event-card__button_type_like"></button>
+            <img src="./images/event-card-coffee-therapy.png" alt="кофетерапия" class="event-card__main-picture">
+            <div class="event-card__content">
+
+              <div class="event-card__content-item">
+                <p class="event-card__text">еда и напитки</p>
+                <p class="event-card__text">Пн-Вс, 10:00-22:00</p>
+              </div>
+
+              <div class="event-card__content-item">
+                <div class="event-card__title-wrapper">
+                  <h2 class="event-card__title">coffee therapy</h2>
+                  <p class="event-card__subtitle">кофе и угощения в пользу Ночлежки</p>
+                </div>
+              </div>
+
+              <div class="event-card__content-item event-card__adress">
+                <p class="event-card__text">улица Льва Толстого, 5
+                </p>
+                <p class="event-card__text">+ ещё 24</p>
+              </div>
+            </div>
+          </article>
+        </li>
+
+        <li class="events__list-item">
+          <article class="event-card" aria-label="праздник">
+            <button type="button" class="event-card__button event-card__button_type_like"></button>
+            <img src="./images/event-card-halloween.png" alt="праздник" class="event-card__main-picture">
+            <div class="event-card__content">
+
+              <div class="event-card__content-item">
+                <p class="event-card__text">посиделки</p>
+              </div>
+
+              <div class="event-card__content-item">
+                <div class="event-card__title-wrapper">
+                  <h2 class="event-card__title">апрельский хэллоуин у Ники</h2>
+                  <p class="event-card__subtitle">закрытое событие</p>
+                </div>
+              </div>
+            </div>
+          </article>
+
+        <li class="events__list-item">
+          <article class="event-card" aria-label="кофетерапия">
+            <button type="button" class="event-card__button event-card__button_type_like"></button>
+
+            <img src="./images/event-card-coffee-therapy.png" alt="кофетерапия" class="event-card__main-picture">
+            <div class="event-card__content">
+
+              <div class="event-card__content-item">
+                <p class="event-card__text">еда и напитки</p>
+                <p class="event-card__text">Пн-Вс, 10:00-22:00</p>
+              </div>
+
+              <div class="event-card__content-item">
+                <div class="event-card__title-wrapper">
+                  <h2 class="event-card__title">coffee therapy</h2>
+                  <p class="event-card__subtitle">кофе и угощения в пользу Ночлежки</p>
+                </div>
+              </div>
+
+              <div class="event-card__content-item event-card__adress">
+                <p class="event-card__text">улица Льва Толстого, 5
+                </p>
+                <p class="event-card__text">+ ещё 24</p>
+              </div>
+            </div>
+          </article>
+        </li>
+      </ul>
+
+      <div class=" events__place events__place_space-around">
+        <a href="#" target="_blank" class="link button events__link-all">смотреть все события</a>
+      </div>
+
+    </section>
+
+    <section class="section numbers">
+      <h2 class="title">цифры дня</h2>
+      <ul class="numbers__list">
+        <li class="numbers__item">
+          <div class="numbers__illustration">
+            <img class="numbers__illustration-image" src="./images/numbers-image-flowers.svg" alt="">
+          </div>
+          <div class="numbers__statistics">
+            <h3 class="numbers__title title">2 500</h3>
+            <p class="numbers__subtitle subtitle">cтолько обедов приготовили для нуждающихся</p>
+          </div>
+        </li>
+        <li class="numbers__item">
+          <div class="numbers__illustration">
+            <img class="numbers__illustration-image" src="./images/numbers-image-drinks.svg" alt="">
+          </div>
+          <div class="numbers__statistics">
+            <h3 class="numbers__title title">15 000</h3>
+            <p class="numbers__subtitle subtitle">cтолько печенья продали в поддержку акции</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="gallery section">
+      <h2 class="gallery__title">#hedonismfest</h2>
+      <p class="subtitle">Ставь хештег и попади в ленту на сайте</p>
+      <ul class="gallery__items">
+        <li class="gallery__item">
+          <img src="images/photo/park.jpg" alt="Парк" class="gallery__image">
+        </li>
+        <li class="gallery__item">
+          <img src="images/photo/woman.jpg" alt="Девушка с соком" class="gallery__image">
+        </li>
+        <li class="gallery__item">
+          <img src="images/photo/cocktails.jpg" alt="Коктейли" class="gallery__image">
+        </li>
+        <li class="gallery__item">
+          <img src="images/photo/museum.jpg" alt="Музей" class="gallery__image">
+        </li>
+        <li class="gallery__item">
+          <img src="images/photo/friends.jpg" alt="Друзья" class="gallery__image">
+        </li>
+      </ul>
+      <div class="gallery__slider">
+        <div class="gallery__slide slide1 gallery__slide_active"></div>
+        <div class="gallery__slide slide2"></div>
+        <div class="gallery__slide slide3"></div>
+        <div class="gallery__slide slide4"></div>
+        <div class="gallery__slide slide5"></div>
+      </div>
+    </section>
+
+    <section class="resources section" aria-label="Логотипы партнеров">
+      <h2 class="title">уже в команде</h2>
+      <div class="resources__container">
+        <ul class="resources__logo-zone">
+          <li class="resources__logo-item">
+            <img src="images/logo/surf-logo.svg" alt="Логотип Surf Coffee" class="resources__logo">
           </li>
-          <li class="numbers__item">
-            <div class="numbers__illustration">
-              <img class="numbers__illustration-image" src="./images/numbers-image-drinks.svg" alt="">
-            </div>
-            <div class="numbers__statistics">
-              <h3 class="numbers__title title">15 000</h3>
-              <p class="numbers__subtitle subtitle">cтолько печенья продали в поддержку акции</p>
-            </div>
+          <li class="resources__logo-item">
+            <img src="images/logo/gallagy-logo.svg" alt="Логотип Галерея Санкт-Петербург" class="resources__logo">
           </li>
-        </ul>
-      </section>
-
-    </main>
-
-    <!-- Footer -->
-
-    <footer class="footer section">
-      <img src="./images/footer-illustration.svg" alt="Логотип Ночлежки" class="footer__img">
-
-      <div class="footer__org">
-        <h2 class="footer__title">организатор:</h2>
-        <ul class="footer__list">
-          <li class="footer__list-item">
-            <p class="footer__text">Ночлежка</p>
-            <a href="https://homeless.ru/" target="_blank" class="footer__link-icon"></a>
+          <li class="resources__logo-item">
+            <img src="images/logo/market-logo.svg" alt="Логотип Василеостровский Рынок" class="resources__logo">
           </li>
-          <li class="footer__list-item">
-            <a href="mailto:info@hedonismfest.ru" class="footer__text footer__text_email">info@hedonismfest.ru</a>
+          <li class="resources__logo-item">
+            <img src="images/logo/surf-logo.svg" alt="Логотип Surf Coffee" class="resources__logo">
+          </li>
+          <li class="resources__logo-item">
+            <img src="images/logo/gallagy-logo.svg" alt="Логотип Галерея Санкт-Петербург" class="resources__logo">
+          </li>
+          <li class="resources__logo-item">
+            <img src="images/logo/market-logo.svg" alt="Логотип Василеостровский Рынок" class="resources__logo">
+          </li>
+          <li class="resources__logo-item">
+            <img src="images/logo/surf-logo.svg" alt="Логотип Surf Coffee" class="resources__logo">
+          </li>
+          <li class="resources__logo-item">
+            <img src="images/logo/gallagy-logo.svg" alt="Логотип Галерея Санкт-Петербург" class="resources__logo">
           </li>
         </ul>
       </div>
+    </section>
+  </main>
 
-      <div class="footer__partners">
-        <h2 class="footer__title">сделано с любовью:</h2>
-        <ul class="footer__list">
-          <li class="footer__list-item">
-            <p class="footer__text">Fastsol Digital</p>
-            <a href="https://fastsol.digital/" target="_blank" class="footer__link-icon"></a>
-          </li>
-          <li class="footer__list-item">
-            <p class="footer__text">shishki.collective</p>
-            <a href="https://shishki.co/" target="_blank" class="footer__link-icon"></a>
-          </li>
-          <li class="footer__list-item">
-            <p class="footer__text">студентами Яндекс.Практикума</p>
-            <a href="https://practicum.yandex.ru/" target="_blank" class="footer__link-icon"></a>
-          </li>
-        </ul>
-      </div>
+  <!-- Footer -->
 
-      <div class="footer__social">
-        <h2 class="footer__title">мы в соцсетях:</h2>
-        <ul class="footer__social-networks">
-          <li>
-            <a href="https://www.facebook.com/Homeless.ru/" target="_blank"><img class="footer__social-icon" src="./images/facebook.svg" alt="Facebook"></a>
-          </li>
-          <li>
-            <a href="https://www.instagram.com/nochlezhka/" target="_blank"><img class="footer__social-icon" src="./images/instagram.svg" alt="Instagram"></a>
-          </li>
-          <li>
-            <a href="https://vk.com/nochlezhka" target="_blank"><img class="footer__social-icon" src="./images/vk.svg" alt="VK"></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+  <footer class="footer section">
+    <img src="./images/footer-illustration.svg" alt="Логотип Ночлежки" class="footer__img">
+    <div class="footer__org">
+      <h2 class="footer__title">организатор:</h2>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <p class="footer__text">Ночлежка</p>
+          <a href="https://homeless.ru/" target="_blank" class="footer__link-icon link"></a>
+        </li>
+        <li class="footer__list-item">
+          <a href="mailto:info@hedonismfest.ru" class="footer__text footer__text_email link">info@hedonismfest.ru</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__partners">
+      <h2 class="footer__title">сделано с любовью:</h2>
+      <ul class="footer__list">
+        <li class="footer__list-item">
+          <p class="footer__text">Fastsol Digital</p>
+          <a href="https://fastsol.digital/" target="_blank" class="footer__link-icon link"></a>
+        </li>
+        <li class="footer__list-item">
+          <p class="footer__text">shishki.collective</p>
+          <a href="https://shishki.co/" target="_blank" class="footer__link-icon link"></a>
+        </li>
+        <li class="footer__list-item">
+          <p class="footer__text">студентами Яндекс.Практикума</p>
+          <a href="https://practicum.yandex.ru/" target="_blank" class="footer__link-icon link"></a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer__social">
+      <h2 class="footer__title">мы в соцсетях:</h2>
+      <ul class="footer__social-networks">
+        <li>
+          <a href="https://www.facebook.com/Homeless.ru/" target="_blank"><img class="footer__social-icon link"
+              src="./images/facebook.svg" alt="Facebook"></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/nochlezhka/" target="_blank"><img class="footer__social-icon link"
+              src="./images/instagram.svg" alt="Instagram"></a>
+        </li>
+        <li>
+          <a href="https://vk.com/nochlezhka" target="_blank"><img class="footer__social-icon link" src="./images/vk.svg"
+              alt="VK"></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 
-    <!-- Popup payment
+  <!-- Popup payment -->
 
-    <section class="popup page__popup popup_payment popup_opened">
+  <section class="popup page__popup popup_payment popup_opened">
+    <form name="place-add" action="#" class="popup__form">
+
       <div class="popup__container">
+        <span class="popup__decor"></span>
         <div class="popup__header">
           <h2 class="title title_type_popup">пожертвовать</h2>
           <button class="popup__button-close" type="button"></button>
         </div>
-        <form name="place-add" action="#" class="popup__form popup__form_type_add-place"></form>
+
         <label class="title title_type_form">сумма</label>
           <ul class="popup__buttons-amount">
             <li><button class="button button_type_button button_type_amount button_color_primary link" type="button" value="100">100 ₽</button></li>
@@ -152,7 +354,7 @@
             <li><button class="button button_type_button button_type_amount link" type="button" value="500">500 ₽</button></li>
             <li><button class="button button_type_button button_type_amount link" type="button" value="1000">1000 ₽</button></li>
             <li><button class="button button_type_button button_type_amount link" type="button" value="3000">3000 ₽</button></li>
-            <li><input type="text" name="hend_amount" class="popup__input-text popup__input-text_type_amount popup__input_hend_amount" placeholder="другая сумма" required></li>
+            <li><input type="text" name="hend_amount" class="popup__input-text popup__input-text_type_amount popup__input_hend_amount" placeholder="другая сумма"></li>
           </ul>
           <input type="hidden" name="amount" class="popup__input-amount" value="">
           <label for="email" class="title title_type_form">email</label>
@@ -170,15 +372,78 @@
               <span class="popup__form-label-text">PayPal</span>
             </label>
           </fieldset>
-          <p class="popup__payment-text">Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями <a href="#" class="popup__payment-link link">оферты, политики</a> в отношении обработки и защиты персональных данных и даёте <a href="#" class="popup__payment-link link">согласие</a> на их обработку</p>
-          <button class="button button_type_button button_type_payment button_color_primary link" type="submit">перейти к оплате</button>
-        </form>
+          <p class="popup__payment-text">Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями <a href="#" class="popup__payment-link link">оферты, политики</a> в отношении обработки и защиты персональных данных и даёте <a href="#" class="popup__payment-link link">согласие</a> на их обработку</p>
       </div>
-    </section>
--->
-    <!-- Scripts -->
-    <script src="scripts/index.js" defer></script>
+      <div class="popup__button-container">
+        <button class="button button_type_button button_type_payment button_color_primary link" type="submit">перейти к оплате</button>
+      </div>
+    </form>
+  </section>
 
-  </body>
+<!-- всплывающее меню в мобильной версии -->
+
+  <section class="menu menu_primary">
+    <h3 class="menu__subtitle">ваш город</h3>
+    <ul class="menu__navigation">
+      <li class="menu__list-item">
+        <p class="menu__text">Санкт-Петербург</p>
+        <button class="menu__arrow-button menu__arrow-button_right link"></button>
+      </li>
+    </ul>
+    <h3 class="menu__subtitle">навигация</h3>
+    <ul class="menu__navigation">
+      <li class="menu__list-item">
+        <a href="" class="menu__text link">куда пойти</a>
+      </li>
+      <li class="menu__list-item">
+        <a href="" class="menu__text link">стать участником</a>
+      </li>
+      <li class="menu__list-item">
+        <a href="" class="menu__text link">о фестивале</a>
+      </li>
+    </ul>
+    <figure class="menu__figure">
+      <img src="./images/logo-nochlezhka.svg" alt="НОЧЛЕЖКА" class="menu__image">
+      <figcaption class="menu__subtitle">благотворительная организация</figcaption>
+    </figure>
+    <button class="menu__donate link">пожертвовать</button>
+  </section>
+
+
+  <section class="menu menu_city">
+    <div class="menu__goback">
+      <div class="menu__arrow-button menu__arrow-button_left"></div>
+      <p class="menu__goback-text">назад</p>
+    </div>
+
+    <h3 class="menu__subtitle">ваш город</h3>
+    <ul class="menu__navigation">
+      <li class="menu__list-item">
+        <a href="" class="menu__text link">Москва</a>
+        <div class="menu__check"></div>
+      </li>
+      <li class="menu__list-item">
+        <a href="#" class="menu__text link">Санкт-Петербург</a>
+        <div class="menu__check menu__check_checked"></div>
+      </li>
+      <li class="menu__list-item">
+        <a href="" class="menu__text link">Сочи</a>
+        <div class="menu__check"></div>
+      </li>
+      <li class="menu__list-item">
+        <a href="" class="menu__text link">Калуга</a>
+        <div class="menu__check"></div>
+      </li>
+      <li class="menu__list-item">
+        <a href="" class="menu__text link">Екатеринбург</a>
+        <div class="menu__check"></div>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Scripts -->
+  <script src="scripts/index.js" defer></script>
+  <script src="scripts/menu.js" defer></script>
+</body>
 
 </html>

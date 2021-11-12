@@ -9,8 +9,8 @@
   margin-bottom: 24px;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 590px) {
   .popup__form-input-container {
-    gap: 29px;
+    margin-bottom: 28px;
   }
 }

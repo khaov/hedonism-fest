@@ -1,0 +1,13 @@
+.resources__logo-item {
+  margin-right: 24px;
+}
+
+.resources__logo-item:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 500px) {
+  .resources__logo-item {
+    margin-right: 20px;
+  }
+}
