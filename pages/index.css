@@ -107,12 +107,10 @@
 @import url(../blocks/popup/_opened/popup_opened.css);
 @import url(../blocks/popup/__container/popup__container.css);
 @import url(../blocks/popup/__input-text/popup__input-text.css);
-@import url(../blocks/popup/__button-submit/popup__button-submit.css);
 @import url(../blocks/popup/__button-close/popup__button-close.css);
 @import url(../blocks/popup/__header/popup__header.css);
 @import url(../blocks/popup/__buttons-amount/popup__buttons-amount.css);
 @import url(../blocks/popup/__input-text/_type/popup__input-text_type_amount.css);
-
 @import url(../blocks/popup/__form-input-container/popup__form-input-container.css);
 @import url(../blocks/popup/__form-label/popup__form-label.css);
 @import url(../blocks/popup/__form-radio/popup__form-radio.css);
@@ -120,8 +118,9 @@
 @import url(../blocks/popup/__form-label-text/popup__form-label-text.css);
 @import url(../blocks/popup/__payment-text/popup__payment-text.css);
 @import url(../blocks/popup/__payment-link/popup__payment-link.css);
-
-
+@import url(../blocks/popup/__form/popup__form.css);
+@import url(../blocks/popup/__button-container/popup__button-container.css);
+@import url(../blocks/popup/__decor/popup__decor.css);
 
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__subtitle/menu__subtitle.css);

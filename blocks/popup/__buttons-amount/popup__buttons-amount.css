@@ -8,3 +8,10 @@
   gap: 12px;
   flex-wrap: wrap;
 }
+
+@media screen and (max-width: 550px) {
+  .popup__buttons-amount {
+    margin-top: 16px;
+    margin-bottom: 30px;
+  }
+}

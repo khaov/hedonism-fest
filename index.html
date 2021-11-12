@@ -314,42 +314,46 @@
 
   <!-- Popup payment -->
 
-  <section class="popup page__popup popup_payment">
-    <div class="popup__container">
-      <div class="popup__header">
-        <h2 class="title title_type_popup">пожертвовать</h2>
-        <button class="popup__button-close" type="button"></button>
+  <section class="popup page__popup popup_payment popup_opened">
+    <form name="place-add" action="#" class="popup__form">
+      <div class="popup__container">
+        <span class="popup__decor"></span>
+        <div class="popup__header">
+          <h2 class="title title_type_popup">пожертвовать</h2>
+          <button class="popup__button-close" type="button"></button>
+        </div>
+
+        <label class="title title_type_form">сумма</label>
+          <ul class="popup__buttons-amount">
+            <li><button class="button button_type_button button_type_amount button_color_primary link" type="button" value="100">100 ₽</button></li>
+            <li><button class="button button_type_button button_type_amount link" type="button" value="300">300 ₽</button></li>
+            <li><button class="button button_type_button button_type_amount link" type="button" value="500">500 ₽</button></li>
+            <li><button class="button button_type_button button_type_amount link" type="button" value="1000">1000 ₽</button></li>
+            <li><button class="button button_type_button button_type_amount link" type="button" value="3000">3000 ₽</button></li>
+            <li><input type="text" name="hend_amount" class="popup__input-text popup__input-text_type_amount popup__input_hend_amount" placeholder="другая сумма"></li>
+          </ul>
+          <input type="hidden" name="amount" class="popup__input-amount" value="">
+          <label for="email" class="title title_type_form">email</label>
+          <input type="email" name="email" id="email" class="popup__input-text popup__input_email" placeholder="укажите почту для отправки чека" required>
+          <label class="title title_type_form">способ оплаты</label>
+          <fieldset class="popup__form-input-container">
+            <label class="popup__form-label" for="bank-card">
+              <input type="radio" name="payment-options" id="bank-card" class="popup__form-radio" value="bank-card" checked>
+              <span class="popup__form-pseudo-radio"></span>
+              <span class="popup__form-label-text">банковской картой</span>
+            </label>
+            <label class="popup__form-label" for="paypal">
+              <input type="radio" name="payment-options" id="paypal" class="popup__form-radio" value="paypal">
+              <span class="popup__form-pseudo-radio"></span>
+              <span class="popup__form-label-text">PayPal</span>
+            </label>
+          </fieldset>
+          <p class="popup__payment-text">Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями <a href="#" class="popup__payment-link link">оферты, политики</a> в отношении обработки и защиты персональных данных и даёте <a href="#" class="popup__payment-link link">согласие</a> на их обработку</p>
       </div>
-      <form name="place-add" action="#" class="popup__form popup__form_type_add-place"></form>
-      <label class="title title_type_form">сумма</label>
-        <ul class="popup__buttons-amount">
-          <li><button class="button button_type_button button_type_amount button_color_primary link" type="button" value="100">100 ₽</button></li>
-          <li><button class="button button_type_button button_type_amount link" type="button" value="300">300 ₽</button></li>
-          <li><button class="button button_type_button button_type_amount link" type="button" value="500">500 ₽</button></li>
-          <li><button class="button button_type_button button_type_amount link" type="button" value="1000">1000 ₽</button></li>
-          <li><button class="button button_type_button button_type_amount link" type="button" value="3000">3000 ₽</button></li>
-          <li><input type="text" name="hend_amount" class="popup__input-text popup__input-text_type_amount popup__input_hend_amount" placeholder="другая сумма" required></li>
-        </ul>
-        <input type="hidden" name="amount" class="popup__input-amount" value="">
-        <label for="email" class="title title_type_form">email</label>
-        <input type="email" name="email" id="email" class="popup__input-text popup__input_email" placeholder="укажите почту для отправки чека" required>
-        <label class="title title_type_form">способ оплаты</label>
-        <fieldset class="popup__form-input-container">
-          <label class="popup__form-label" for="bank-card">
-            <input type="radio" name="payment-options" id="bank-card" class="popup__form-radio" value="bank-card" checked>
-            <span class="popup__form-pseudo-radio"></span>
-            <span class="popup__form-label-text">банковской картой</span>
-          </label>
-          <label class="popup__form-label" for="paypal">
-            <input type="radio" name="payment-options" id="paypal" class="popup__form-radio" value="paypal">
-            <span class="popup__form-pseudo-radio"></span>
-            <span class="popup__form-label-text">PayPal</span>
-          </label>
-        </fieldset>
-        <p class="popup__payment-text">Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями <a href="#" class="popup__payment-link link">оферты, политики</a> в отношении обработки и защиты персональных данных и даёте <a href="#" class="popup__payment-link link">согласие</a> на их обработку</p>
+      <div class="popup__button-container">
         <button class="button button_type_button button_type_payment button_color_primary link" type="submit">перейти к оплате</button>
-      </form>
-    </div>
+      </div>
+    </form>
   </section>
 
 <!-- всплывающее меню в мобильной версии -->
