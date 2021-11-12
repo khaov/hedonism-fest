@@ -62,7 +62,9 @@
 
 /* resources */
 @import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__container/resources__container.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/resources/__logo-item/resources__logo-item.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 
 /* footer */
