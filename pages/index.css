@@ -120,3 +120,22 @@
 @import url(../blocks/popup/__form-label-text/popup__form-label-text.css);
 @import url(../blocks/popup/__payment-text/popup__payment-text.css);
 @import url(../blocks/popup/__payment-link/popup__payment-link.css);
+
+
+
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__subtitle/menu__subtitle.css);
+@import url(../blocks/menu/__text/menu__text.css);
+@import url(../blocks/menu/__navigation/menu__navigation.css);
+@import url(../blocks/menu/__list-item/menu__list-item.css);
+@import url(../blocks/menu/__arrow-button/menu__arrow-button.css);
+@import url(../blocks/menu/__arrow-button/_right/menu__arrow-button_right.css);
+@import url(../blocks/menu/__arrow-button/_left/menu__arrow-button_left.css);
+@import url(../blocks/menu/__figure/menu__figure.css);
+@import url(../blocks/menu/__image/menu__image.css);
+@import url(../blocks/menu/__donate/menu__donate.css);
+@import url(../blocks/menu/__opened/menu__opened.css);
+@import url(../blocks/menu/__goback/menu__goback.css);
+@import url(../blocks/menu/__goback-text/menu__goback-text.css);
+@import url(../blocks/menu/__check/menu__check.css);
+@import url(../blocks/menu/__check/_checked/menu__check_checked.css);
