@@ -50,9 +50,11 @@
 @import url(../blocks/about/__description/about__description.css);
 @import url(../blocks/about/__link/about__link.css);
 
+/* gallery */
 @import url(../blocks/numbers/numbers.css);
 @import url(../blocks/numbers/__list/numbers__list.css);
 @import url(../blocks/numbers/__item/numbers__item.css);
+@import url(../blocks/numbers/__illustration/numbers__illustration.css);
 
 /* gallery */
 @import url(../blocks/gallery/gallery.css);
