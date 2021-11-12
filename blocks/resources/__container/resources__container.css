@@ -1,0 +1,11 @@
+.resources__container {
+  min-width: 100%;
+  margin: 12px auto 0;
+  padding: 0;
+  overflow-y: auto;
+}
+
+.resources__container::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
