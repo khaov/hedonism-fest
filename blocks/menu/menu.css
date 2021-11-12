@@ -1,0 +1,21 @@
+.menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none;
+    height: calc(100vh - 68px);
+    min-height: 480px;
+    width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #fff;
+    position: fixed;
+    top: 68px;
+    overflow: hidden;
+    z-index: 2;
+  }
+}

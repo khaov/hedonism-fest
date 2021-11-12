@@ -1,0 +1,15 @@
+.menu__arrow-button {
+  width: 20px;
+  height: 20px;
+  border: none;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin: 0;
+
+}
+
+.menu__arrow-button:hover {
+  cursor: pointer;
+}

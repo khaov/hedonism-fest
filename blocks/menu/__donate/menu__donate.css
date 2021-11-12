@@ -1,0 +1,15 @@
+.menu__donate {
+  min-height: 44px;
+  border: none;
+  width: 320px;
+  border-radius: 22px;
+  background-color: #7100FF;
+  color: #fff;
+  align-self: center;
+  position: absolute;
+  bottom: 20px;
+}
+
+.menu__donate:hover {
+  cursor: pointer;
+}
