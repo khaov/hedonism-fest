@@ -1,0 +1,35 @@
+.events__cards {
+  margin: 0;
+  margin-top: 24px;
+  padding: 0 40px 24px 40px;
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+  overflow-x: scroll;
+}
+
+.events__cards::-webkit-scrollbar {
+  height: 4px;
+}
+
+.events__cards::-webkit-scrollbar-track {
+  background-color: var(--color-light-primary);
+}
+
+.events__cards::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+}
+
+@media  screen and (max-width: 1440px) {
+  .events__cards {
+    padding-right: calc(0px + (20 - 0) * (100vw - 320px) / (1440 - 320));
+    padding-left: calc(0px + (20 - 0) * (100vw - 320px) / (1440 - 320));
+  }
+}
+
+@media  screen and (max-width: 320px) {
+  .events__cards {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}

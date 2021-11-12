@@ -64,3 +64,25 @@
 @import url(../blocks/footer/__social-networks/footer__social-networks.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__link-icon/footer__link-icon.css);
+
+/* Ссылки на события*/
+@import url(../blocks/events/events.css);
+@import url(../blocks/events/__title/events__title.css);
+@import url(../blocks/events/__links/events__links.css);
+@import url(../blocks/events/__list-item/events__list-item.css);
+@import url(../blocks/events/__link/events__link.css);
+@import url(../blocks/events/__cards/events__cards.css);
+@import url(../blocks/events/__link-all/events__link-all.css);
+@import url(../blocks/events/__place/_space-around/events__place_space-around.css);
+
+@import url(../blocks/event-card/event-card.css);
+@import url(../blocks/event-card/__main-picture/event-card__main-picture.css);
+@import url(../blocks/event-card/__content/event-card__content.css);
+@import url(../blocks/event-card/__content-item/event-card__content-item.css);
+@import url(../blocks/event-card/__text/event-card__text.css);
+@import url(../blocks/event-card/__title/event-card__title.css);
+@import url(../blocks/event-card/__subtitle/event-card__subtitle.css);
+@import url(../blocks/event-card/__adress/event-card__adress.css);
+@import url(../blocks/event-card/__button/event-card__button.css);
+@import url(../blocks/event-card/__button/_type/event-card__button_type_like.css);
+
