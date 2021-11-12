@@ -314,7 +314,7 @@
 
   <!-- Popup payment -->
 
-  <section class="popup page__popup popup_payment popup_opened">
+  <section class="popup page__popup popup_payment">
     <form name="place-add" action="#" class="popup__form">
       <div class="popup__container">
         <span class="popup__decor"></span>
@@ -325,20 +325,20 @@
 
         <label class="title title_type_form">сумма</label>
           <ul class="popup__buttons-amount">
-            <li><button class="button button_type_button button_type_amount button_color_primary link" type="button" value="100">100 ₽</button></li>
-            <li><button class="button button_type_button button_type_amount link" type="button" value="300">300 ₽</button></li>
-            <li><button class="button button_type_button button_type_amount link" type="button" value="500">500 ₽</button></li>
-            <li><button class="button button_type_button button_type_amount link" type="button" value="1000">1000 ₽</button></li>
-            <li><button class="button button_type_button button_type_amount link" type="button" value="3000">3000 ₽</button></li>
+            <li><button class="button button_type_button button_type_amount button_color_primary amount_100 link" type="button" value="100">100 ₽</button></li>
+            <li><button class="button button_type_button button_type_amount amount_300 link" type="button" value="300">300 ₽</button></li>
+            <li><button class="button button_type_button button_type_amount amount_500 link" type="button" value="500">500 ₽</button></li>
+            <li><button class="button button_type_button button_type_amount amount_1000 link" type="button" value="1000">1000 ₽</button></li>
+            <li><button class="button button_type_button button_type_amount amount_3000 link" type="button" value="3000">3000 ₽</button></li>
             <li><input type="text" name="hend_amount" class="popup__input-text popup__input-text_type_amount popup__input_hend_amount" placeholder="другая сумма"></li>
           </ul>
           <input type="hidden" name="amount" class="popup__input-amount" value="">
           <label for="email" class="title title_type_form">email</label>
-          <input type="email" name="email" id="email" class="popup__input-text popup__input_email" placeholder="укажите почту для отправки чека" required>
+          <input type="email" name="email" id="email" class="popup__input-text popup__input_email" placeholder="укажите почту для отправки чека">
           <label class="title title_type_form">способ оплаты</label>
           <fieldset class="popup__form-input-container">
             <label class="popup__form-label" for="bank-card">
-              <input type="radio" name="payment-options" id="bank-card" class="popup__form-radio" value="bank-card" checked>
+              <input type="radio" name="payment-options" id="bank-card" class="popup__form-radio bank-card" value="bank-card" checked>
               <span class="popup__form-pseudo-radio"></span>
               <span class="popup__form-label-text">банковской картой</span>
             </label>
@@ -420,6 +420,7 @@
   <!-- Scripts -->
   <script src="scripts/index.js" defer></script>
   <script src="scripts/menu.js" defer></script>
+  <script src="scripts/popup.js" defer></script>
 </body>
 
 </html>
