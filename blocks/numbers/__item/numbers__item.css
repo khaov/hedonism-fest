@@ -1,0 +1,87 @@
+.numbers__item {
+  width: 70.6%;
+  min-width: 320px;
+  max-width: 480px;
+  position: relative;
+}
+
+.numbers__item:nth-child(odd) {
+  align-self: start;
+}
+
+.numbers__item:nth-child(odd) .numbers__statistics {
+  left: 50%;
+}
+
+.numbers__item:nth-child(odd)::before {
+  content: '';
+  display: block;
+  width: 149px;
+  height: 149px;
+  border-radius: 50%;
+  background-color: var(--color-accident);
+  position: absolute;
+  top: 27%;
+  right: -68.5%;
+}
+
+.numbers__item:nth-child(odd)::after {
+  content: '';
+  display: block;
+  width: 221.5px;
+  height: 64.5px;
+  background-color: transparent;
+  background-image: url('../../../images/numbers-decoration-curl.svg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 27%;
+  right: -84.5%;
+}
+
+.numbers__item:nth-child(even) {
+  justify-self: end;
+}
+
+.numbers__item:nth-child(even)::before {
+  content: '';
+  display: block;
+  width: 87.5px;
+  height: 143.5px;
+  background-color: transparent;
+  background-image: url('../../../images/numbers-decoration-splash.svg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 0%;
+  left: -53%;
+}
+
+.numbers__item:nth-child(even) .numbers__illustration {
+  margin-top: 50%;
+}
+
+.numbers__item:nth-child(even) .numbers__statistics {
+  right: 50%;
+}
+
+@media screen and (max-width: 1279px) {
+  .numbers__item:nth-child(even) .numbers__illustration {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .numbers__item:nth-child(odd),
+  .numbers__item:nth-child(even) {
+    justify-self: center;
+  }
+  .numbers__item:nth-child(odd)::before,
+  .numbers__item:nth-child(odd)::after,
+  .numbers__item:nth-child(even)::before {
+    display: none;
+  }
+}
+

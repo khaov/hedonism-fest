@@ -1,0 +1,9 @@
+.numbers__subtitle {
+  margin: 8px 0 0;
+}
+
+@media screen and (max-width: 500px) {
+  .numbers__subtitle {
+    margin: 4px 0 0;
+  }
+}

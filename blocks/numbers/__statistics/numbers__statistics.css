@@ -1,0 +1,21 @@
+.numbers__statistics {
+  width: 100%;
+  max-width: 300px;
+  position: absolute;
+  bottom: 8.333%;
+}
+
+@media screen and (max-width: 1023px) {
+  .numbers__statistics {
+    max-width: 320px;
+    margin: 24px auto 0;
+    text-align: center;
+    position: static;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .numbers__statistics {
+    margin: 12px auto 0;
+  }
+}

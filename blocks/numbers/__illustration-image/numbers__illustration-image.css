@@ -1,0 +1,16 @@
+.numbers__illustration-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  position: absolute;
+  bottom: 37.5%;
+  left: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .numbers__illustration-image {
+    bottom: 50%;
+    transform: translateY(50%);
+  }
+}
