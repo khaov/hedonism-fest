@@ -1,7 +1,7 @@
 .event-card__main-picture {
   display: block;
   height: 180px;
+  object-fit: contain;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
-  object-fit: contain;
 }

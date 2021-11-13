@@ -1,7 +1,7 @@
 .events__cards {
-  margin: 0;
-  margin-top: 24px;
-  padding: 0 40px 24px 40px;
+  margin: 24px 40px 0 40px;
+  padding: 0;
+  padding-bottom: 24px;
   list-style: none;
   display: flex;
   column-gap: 20px;
@@ -22,14 +22,15 @@
 
 @media  screen and (max-width: 1440px) {
   .events__cards {
-    padding-right: calc(0px + (20 - 0) * (100vw - 320px) / (1440 - 320));
-    padding-left: calc(0px + (20 - 0) * (100vw - 320px) / (1440 - 320));
+    margin-right: calc(0px + (40 - 0) * (100vw - 360px) / (1440 - 360));
+    margin-left: calc(0px + (40 - 0) * (100vw - 360px) / (1440 - 360));
   }
 }
 
-@media  screen and (max-width: 320px) {
+@media  screen and (max-width: 360px) {
   .events__cards {
-    padding-left: 0px;
-    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 20px;
   }
 }

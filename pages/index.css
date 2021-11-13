@@ -104,6 +104,8 @@
 @import url(../blocks/event-card/event-card.css);
 @import url(../blocks/event-card/__main-picture/event-card__main-picture.css);
 @import url(../blocks/event-card/__content/event-card__content.css);
+@import url(../blocks/event-card/__link/event-card__link.css);
+@import url(../blocks/event-card/__picture-link/event-card__picture-link.css);
 @import url(../blocks/event-card/__content-item/event-card__content-item.css);
 @import url(../blocks/event-card/__text/event-card__text.css);
 @import url(../blocks/event-card/__title/event-card__title.css);
