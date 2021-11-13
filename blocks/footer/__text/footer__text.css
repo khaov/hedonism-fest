@@ -2,6 +2,8 @@
   font-size: 18px;
   line-height: 24px;
   margin: 0 9px 0 0;
+  text-decoration: none;
+  color: #3B3748;
 }
 
 @media screen and (max-width: 768px) {
