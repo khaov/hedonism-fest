@@ -1,0 +1,20 @@
+.header__city-menu-item {
+  display: flex;
+  align-items: center;
+  height: 36px;
+  padding: 0 20px 0;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-decoration: none;
+  color: var(--color-dark-primary);
+  background-color: transparent;
+  border: 0;
+  margin: 0;
+  cursor: pointer;
+  width: 100%;
+}
+
+.header__city-menu-item:hover {
+  box-shadow: 0 0 1px 1px rgba(221, 221, 221, .9);
+}

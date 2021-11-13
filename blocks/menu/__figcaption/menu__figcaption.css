@@ -1,4 +1,4 @@
-.menu__subtitle {
+.menu__figcaption {
   display: none;
   font-size: 16px;
   font-style: normal;
@@ -8,11 +8,10 @@
   text-align: left;
   margin: 0 0 8px 0;
   color: var(--color-dark-secondary);
-  padding: 0 20px 0;
 }
 
 @media screen and (max-width: 768px) {
-  .menu__subtitle {
+  .menu__figcaption {
     display: block;
   }
 }

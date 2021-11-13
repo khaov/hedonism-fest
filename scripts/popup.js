@@ -22,6 +22,7 @@ const inputEmailElement = document.querySelector('.popup__input_email');
 const radioButtonBankCard = document.querySelector('.bank-card');
 
 function openPopup() {
+  headerMenuCity.classList.remove('header__city-menu-container_opened');
   activeButtonsAmount_100();
   inputEmailElement.value = '';
   radioButtonBankCard.checked = true;
@@ -34,6 +35,7 @@ function closePopup() {
 
 function closeMenuOpenPopup() {
   menu.classList.remove('menu__opened');
+  headerMenuCity.classList.remove('header__city-menu-container_opened');
   activeButtonsAmount_100();
   inputEmailElement.value = '';
   radioButtonBankCard.checked = true;

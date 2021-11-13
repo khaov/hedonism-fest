@@ -1,13 +1,12 @@
 const cardTemplate = document.querySelector('.card__template').content;
 
-
 // Создание карточки мероприятия
 function createCard(dataCity) {
 
   const cardElement = cardTemplate.querySelector('.events__list-item').cloneNode(true);
 
   const cardEvent = cardElement.querySelector('.event-card');
-  cardEvent.setAttribute('aria-label', dataCity.link);
+  cardEvent.setAttribute('aria-label', dataCity.alt);
 
   const cardImage = cardElement.querySelector('.event-card__main-picture');
   cardImage.src = dataCity.image;
