@@ -1,10 +1,17 @@
 .menu__subtitle {
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0px;
-  text-align: left;
-  margin: 0 0 8px 0;
-  color: #96949E;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__subtitle {
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0 0 8px 0;
+    color: #96949E;
+  }
 }

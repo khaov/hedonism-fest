@@ -1,6 +1,12 @@
 .menu__list-item {
-  height: 52px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__list-item {
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 }

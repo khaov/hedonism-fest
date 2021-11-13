@@ -1,10 +1,16 @@
 .menu__figure {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-self: center;
-  height: 90px;
-  position: absolute;
-  bottom: 64px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__figure {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 90px;
+    position: absolute;
+    bottom: 64px;
+  }
 }

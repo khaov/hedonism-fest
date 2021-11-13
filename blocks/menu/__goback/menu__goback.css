@@ -1,7 +1,13 @@
 .menu__goback {
-  display: flex;
-  align-items: center;
-  height: 40px;
-  column-gap: 8px;
-  margin-bottom: 20px;
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__goback {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    column-gap: 8px;
+    margin-bottom: 20px;
+  }
 }

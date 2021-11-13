@@ -1,15 +1,22 @@
 .menu__arrow-button {
-  width: 20px;
-  height: 20px;
-  border: none;
-  background-color: transparent;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size:contain;
-  margin: 0;
-
+  display: none;
 }
 
-.menu__arrow-button:hover {
-  cursor: pointer;
+@media screen and (max-width: 768px) {
+  .menu__arrow-button {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: 0;
+
+  }
+
+  .menu__arrow-button:hover {
+    cursor: pointer;
+  }
 }
