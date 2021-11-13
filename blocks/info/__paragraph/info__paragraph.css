@@ -1,0 +1,19 @@
+.info__paragraph {
+  margin: 18px 0 0;
+  padding: 0;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-dark-primary);
+}
+
+.info__paragraph:first-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .info__paragraph {
+    margin: 16px 0 0;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

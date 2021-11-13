@@ -9,9 +9,9 @@
   color: var(--color-dark-primary);
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
   .gallery__title {
-    margin: 0 0 12px;
+    margin: 0 0 5px;
     font-size: 32px;
     line-height: 36px;
     letter-spacing: 0;

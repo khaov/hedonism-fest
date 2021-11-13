@@ -2,5 +2,12 @@
   font-size: 16px;
   line-height: 20px;
   color: var(--color-dark-secondary);
-  margin-bottom: 32px;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 590px) {
+  .popup__payment-text {
+    padding-bottom: 16px;
+  }
 }

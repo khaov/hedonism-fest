@@ -9,6 +9,7 @@
 }
 
 .gallery__item:nth-child(3) {
+  margin-top: 20px;
   grid-column: 4/-1;
   grid-row: 2/3;
 }
@@ -21,7 +22,7 @@
   grid-row: 3/4;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
   .gallery__item {
     display: none;
   }

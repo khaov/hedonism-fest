@@ -3,7 +3,7 @@
   min-width: 360px;
   margin: 0 auto;
   padding: 0;
-
+  position: relative;
   font-family: 'TT-Firs-Neue', 'Arial', sans-serif;
   font-weight: 400;
   color: var(--color-dark-primary);
@@ -13,4 +13,5 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility;
+
 }

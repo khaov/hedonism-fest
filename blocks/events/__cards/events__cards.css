@@ -1,0 +1,36 @@
+.events__cards {
+  margin: 24px 40px 0 40px;
+  padding: 0;
+  padding-bottom: 24px;
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+  overflow-x: scroll;
+}
+
+.events__cards::-webkit-scrollbar {
+  height: 4px;
+}
+
+.events__cards::-webkit-scrollbar-track {
+  background-color: var(--color-light-primary);
+}
+
+.events__cards::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary);
+}
+
+@media  screen and (max-width: 1440px) {
+  .events__cards {
+    margin-right: calc(0px + (40 - 0) * (100vw - 360px) / (1440 - 360));
+    margin-left: calc(0px + (40 - 0) * (100vw - 360px) / (1440 - 360));
+  }
+}
+
+@media  screen and (max-width: 360px) {
+  .events__cards {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 20px;
+  }
+}
