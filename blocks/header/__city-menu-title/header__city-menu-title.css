@@ -1,18 +1,11 @@
-.menu__subtitle {
-  display: none;
+.header__city-menu-title {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0px;
   text-align: left;
-  margin: 0 0 8px 0;
+  margin: 8px 0 8px 0;
   color: var(--color-dark-secondary);
   padding: 0 20px 0;
-}
-
-@media screen and (max-width: 768px) {
-  .menu__subtitle {
-    display: block;
-  }
 }
