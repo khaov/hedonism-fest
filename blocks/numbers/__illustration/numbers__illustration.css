@@ -1,0 +1,6 @@
+.numbers__illustration {
+  padding-bottom: 100%;
+  border-radius: 50%;
+  background-color: var(--color-accident);
+  position: relative;
+}

@@ -51,6 +51,15 @@
 @import url(../blocks/about/__link/about__link.css);
 
 /* gallery */
+@import url(../blocks/numbers/numbers.css);
+@import url(../blocks/numbers/__list/numbers__list.css);
+@import url(../blocks/numbers/__item/numbers__item.css);
+@import url(../blocks/numbers/__illustration/numbers__illustration.css);
+@import url(../blocks/numbers/__illustration-image/numbers__illustration-image.css);
+@import url(../blocks/numbers/__statistics/numbers__statistics.css);
+@import url(../blocks/numbers/__subtitle/numbers__subtitle.css);
+
+/* gallery */
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
 @import url(../blocks/gallery/__items/gallery__items.css);
