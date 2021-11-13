@@ -441,6 +441,32 @@
     </ul>
   </section>
 
+  <!-- card__template -->
+  <template  class="card__template">
+    <li class="events__list-item">
+      <article class="event-card" aria-label="">
+        <button type="button" class="event-card__button event-card__button_type_like"></button>
+        <img src="" alt="" class="event-card__main-picture">
+        <div class="event-card__content">
+          <div class="event-card__content-item">
+            <p class="event-card__text category"></p>
+            <p class="event-card__text date"></p>
+          </div>
+          <div class="event-card__content-item">
+            <div class="event-card__title-wrapper">
+              <h2 class="event-card__title"></h2>
+              <p class="event-card__subtitle"></p>
+            </div>
+          </div>
+          <div class="event-card__content-item event-card__adress">
+            <p class="event-card__text adress"></p>
+            <p class="event-card__text count"></p>
+          </div>
+        </div>
+      </article>
+    </li>
+  </template>
+
   <!-- Scripts -->
   <script src="scripts/index.js" defer></script>
   <script src="scripts/menu.js" defer></script>
