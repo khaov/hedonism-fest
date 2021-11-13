@@ -6,7 +6,7 @@
 
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 16px;
 
   flex-basis: max-content;
   line-height: 48px;
