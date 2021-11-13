@@ -5,6 +5,8 @@ const closePopupButton = document.querySelector('.popup__button-close');
 const closePopupSubmitButton = document.querySelector('.button_type_payment');
 const popup = document.querySelector('.popup');
 const menu = document.querySelector('.menu_primary');
+const header = document.querySelector('.header');
+
 
 // Buttuns amount
 const buttonsAmountElement = document.querySelector('.popup__buttons-amount');
@@ -36,6 +38,21 @@ function closeMenuOpenPopup() {
   inputEmailElement.value = '';
   radioButtonBankCard.checked = true;
   popup.classList.add('popup_opened');
+}
+
+function closePopupByClickOnOverlay(event) {
+  const target = event.target;
+  const currentTarget = event.currentTarget;
+  if (target === currentTarget) {
+    closePopup();
+  }
+}
+
+function closePopupByClickOnHeder(event) {
+  const computedStyle = getComputedStyle(header);
+  if (computedStyle.position === 'fixed' && popup.classList.contains('popup_opened')) {
+    closePopup();
+  }
 }
 
 function activeButtonsAmount_100() {
@@ -102,6 +119,8 @@ openPopupMenuButton.addEventListener('click', closeMenuOpenPopup);
 // Close popup
 closePopupButton.addEventListener('click', closePopup);
 closePopupSubmitButton.addEventListener('click', closePopup);
+popup.addEventListener('click', closePopupByClickOnOverlay);
+header.addEventListener('click', closePopupByClickOnHeder);
 
 // Buttuns amount
 buttonsAmount_100.addEventListener('click', activeButtonsAmount_100);
