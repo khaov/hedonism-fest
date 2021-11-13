@@ -1,6 +1,5 @@
+const GALLERY_CONTAINER_WIDTH = 320;
 const containerGallery = document.querySelector('.gallery__items');
-const GALLERY_CONTAINER_WIDTH = containerGallery.offsetWidth;
-
 const dots = document.querySelector('.gallery__slider');
 const picturesGallery = document.querySelectorAll('.gallery__image');
 
@@ -29,6 +28,10 @@ for (let indexPicture = 0; indexPicture < picturesGallery.length; indexPicture++
   dotInput.name = 'radioPictureSlider';
   dotInput.value = indexPicture;
 
+  if (indexPicture===0) {
+    dotInput.checked = true;
+  }
+
   dotInput.addEventListener('change', (e) => {
     containerGallery.scrollLeft = GALLERY_CONTAINER_WIDTH * e.currentTarget.value;
   });
@@ -43,4 +46,4 @@ for (let indexPicture = 0; indexPicture < picturesGallery.length; indexPicture++
 }
 
 
-containerGallery.scrollLeft = 320;
+//containerGallery.scrollLeft = 320;
