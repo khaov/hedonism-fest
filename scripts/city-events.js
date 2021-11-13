@@ -2,35 +2,67 @@ const cardTemplate = document.querySelector('.card__template').content;
 
 
 // Создание карточки мероприятия
-function createCard(cityEventCards) {
+function createCard(dataCity) {
 
   const cardElement = cardTemplate.querySelector('.events__list-item').cloneNode(true);
 
-  const data = cityEventCards
+  const cardEvent = cardElement.querySelector('.event-card');
+  cardEvent.setAttribute('aria-label', dataCity.link);
 
-  // const cardArticle = cardElement.querySelector('.event-card');
-  // // cardArticle.aria-label = cityEventCards.link;
-  // const cardName = cardElement.querySelector('.photo-grid__image-title');
-  // cardName.textContent = сard.name;
+  const cardImage = cardElement.querySelector('.event-card__main-picture');
+  cardImage.src = dataCity.image;
+  cardImage.alt = dataCity.alt;
 
-  // // Вешаю слушателей
-  // // Like card
-  // const cardLikeBtn = cardElement.querySelector('.photo-grid__like-button');
-  // cardLikeBtn.addEventListener('click', () => {
-  //   cardLikeBtn.classList.toggle('photo-grid__like-button_active');
-  // });
-  // // Delete card
-  // const cardDeleteBtn = cardElement.querySelector('.photo-grid__delete-button');
-  // cardDeleteBtn.addEventListener('click', (evt) => {
-  //   evt.target.closest('.photo-grid__item').remove();
-  // });
-  // // Open image
-  // const OpenImage = cardElement.querySelector('.photo-grid__image');
-  // OpenImage.addEventListener('click', (evt) => {
-  //   openPopup({src: сard.link, name: сard.name}, '.popup_type_view');
-  // });
+  const cardCategory = cardElement.querySelector('.category');
+  cardCategory.textContent = dataCity.category;
 
-  // Возвращаю элемент карточки
+  const cardDate = cardElement.querySelector('.date');
+  cardDate.textContent = dataCity.date;
+
+  const cardTitle = cardElement.querySelector('.event-card__title');
+  cardTitle.textContent = dataCity.title;
+
+  const cardSubtitle = cardElement.querySelector('.event-card__subtitle');
+  cardSubtitle.textContent = dataCity.subtitle;
+
+  const cardAdress = cardElement.querySelector('.adress');
+  cardAdress.textContent = dataCity.adress;
+
+  const cardCount = cardElement.querySelector('.count');
+  cardCount.textContent = dataCity.count;
+
+  const cardLike = cardElement.querySelector('.event-card__button_type_like');
+  cardLike.addEventListener('click', (evt) => {
+    evt.classList.toggle('event-card__button_type_like_active');
+  });
+
+  console.log(cardElement);
+
   return cardElement;
+}
+
+// Вывод карточек при загрузке страницы
+function loadCards(cityData) {
+
+  const carsContainer = document.querySelector('.events__cards');
+
+  const activeCityData = cityData.filter(item => {
+    return item.active === 'true';
+  });
+
+  console.log(activeCityData);
+
+  console.log(activeCityData[0]['data']);
+
+  let resCards = [];
+  activeCityData[0]['data'].forEach(item => {
+    resCards.push(createCard(item));
+  })
+
+  resCards.forEach((item) => {
+    carsContainer.append(item);
+  })
 
 }
+
+loadCards(cityEventCards);
