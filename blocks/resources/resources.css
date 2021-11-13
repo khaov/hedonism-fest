@@ -4,6 +4,7 @@
 
 @media screen and (max-width: 576px) {
   .resources {
+    background-color: var(--color-light-secondary);
     padding-top: 40px;
   }
 }
