@@ -1,10 +1,16 @@
 .menu__check {
   display: none;
-  width: 20px;
-  height: 14px;
-  background-image: url('../../../images/check.svg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__check {
+    display: none;
+    width: 20px;
+    height: 14px;
+    background-image: url('../../../images/check.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+  }
 }
