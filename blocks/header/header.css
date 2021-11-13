@@ -1,7 +1,5 @@
 .header {
   margin: 0;
-  padding-top: 0;
-  padding-bottom: 0;
   height: 88px;
   background-color: var(--color-accident);
   display: flex;
