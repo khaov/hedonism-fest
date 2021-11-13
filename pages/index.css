@@ -50,7 +50,16 @@
 @import url(../blocks/about/__description/about__description.css);
 @import url(../blocks/about/__link/about__link.css);
 
-/* gallery */
+/* Info */
+
+@import url(../blocks/info/info.css);
+@import url(../blocks/info/_theme/info_theme_accent.css);
+@import url(../blocks/info/__description/info__description.css);
+@import url(../blocks/info/__paragraph/info__paragraph.css);
+@import url(../blocks/info/__button/info__button.css);
+
+/* Numbers */
+
 @import url(../blocks/numbers/numbers.css);
 @import url(../blocks/numbers/__list/numbers__list.css);
 @import url(../blocks/numbers/__item/numbers__item.css);
@@ -59,7 +68,8 @@
 @import url(../blocks/numbers/__statistics/numbers__statistics.css);
 @import url(../blocks/numbers/__subtitle/numbers__subtitle.css);
 
-/* gallery */
+/* Gallery */
+
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__title/gallery__title.css);
 @import url(../blocks/gallery/__items/gallery__items.css);
@@ -69,14 +79,16 @@
 @import url(../blocks/gallery/__slide/gallery__slide.css);
 @import url(../blocks/gallery/__slide/_active/gallery__slide_active.css);
 
-/* resources */
+/* Resources */
+
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/resources/__container/resources__container.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo-item/resources__logo-item.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 
-/* footer */
+/* Footer */
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__text/footer__text.css);
@@ -92,6 +104,7 @@
 @import url(../blocks/footer/__link-icon/footer__link-icon.css);
 
 /* Ссылки на события*/
+
 @import url(../blocks/events/events.css);
 @import url(../blocks/events/__title/events__title.css);
 @import url(../blocks/events/__links/events__links.css);
