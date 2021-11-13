@@ -85,6 +85,7 @@
 @import url(../blocks/gallery/__slider/gallery__slider.css);
 @import url(../blocks/gallery/__slide/gallery__slide.css);
 @import url(../blocks/gallery/__slide/_active/gallery__slide_active.css);
+@import url(../blocks/gallery/__input/gallery__input.css);
 
 /* Resources */
 

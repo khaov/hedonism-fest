@@ -8,6 +8,10 @@
   grid-template-rows: 310px 1fr 310px;
 }
 
+.gallery__items::-webkit-scrollbar{
+  height: 0;
+}
+
 @media screen and (max-width: 1279px) {
   .gallery__items {
     margin-right: 0px;
@@ -18,9 +22,11 @@
 
 @media screen and (max-width: 576px) {
   .gallery__items {
-    margin-top: 17px;
+    margin: 17px auto 0 auto;
+    display: flex;
     gap: 0;
-    grid-template-columns: minmax(320px, 1fr);
-    grid-template-rows: minmax(320px, 1fr);
+    width: 320px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
   }
 }
