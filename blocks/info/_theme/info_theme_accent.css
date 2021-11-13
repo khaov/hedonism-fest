@@ -1,0 +1,19 @@
+.info_theme_accent {
+  background-color: var(--color-accident);
+}
+
+@media screen and (max-width: 767px) {
+  .info_theme_accent {
+    background-color: var(--color-warning-error);
+  }
+
+  .info_theme_accent .title,
+  .info_theme_accent .info__paragraph,
+  .info_theme_accent .info__button {
+    color: #fff;
+  }
+
+  .info_theme_accent .info__button {
+    border-color: #fff;
+  }
+}
