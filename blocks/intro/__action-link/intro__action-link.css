@@ -1,6 +1,4 @@
 .intro__action-link {
-
-    margin-bottom: 80px;
     width: 44px;
     height: 44px;
     background-color: var(--color-primary);
@@ -11,17 +9,4 @@
 
     box-shadow: 0px 4px 12px rgba(59, 55, 72, 0.12);
     border-radius: 100%;
-}
-
-
-@media screen and (max-width: 1440px) {
-  .intro__action-link{
-      margin-bottom: calc(80 * (100vw - 320px) / (1440 - 320));
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .intro__action-link {
-    margin-bottom: 0;
-  }
 }

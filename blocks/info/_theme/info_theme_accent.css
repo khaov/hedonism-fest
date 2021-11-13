@@ -1,4 +1,6 @@
 .info_theme_accent {
+  padding-top: var(--section-space-top);
+  padding-bottom: var(--section-space-bottom);
   background-color: var(--color-accident);
 }
 
