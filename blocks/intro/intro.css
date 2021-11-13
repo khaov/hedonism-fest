@@ -1,7 +1,6 @@
 .intro {
   min-height: 760px;
   max-width: 1440px;
-  background-color: var(--color-light-primary);
   background-image: url(../../images/first-screen-background-desctop.svg);
   background-position: center;
   background-repeat: no-repeat;
