@@ -1,16 +1,24 @@
 .gallery__items {
-  margin: 40px auto 0;
+  margin: 40px 20px 0 0;
   padding: 0;
   list-style: none;
   display: grid;
   gap: 20px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: 310px 310px 1fr 310px;
+  grid-template-rows: 310px 1fr 310px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1279px) {
   .gallery__items {
-    margin-top: 20px;
+    margin-right: 0px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .gallery__items {
+    margin-top: 17px;
     gap: 0;
     grid-template-columns: minmax(320px, 1fr);
     grid-template-rows: minmax(320px, 1fr);

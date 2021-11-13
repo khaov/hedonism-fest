@@ -6,7 +6,7 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 576px) {
   .resources__logo-item {
     margin-right: 20px;
   }
