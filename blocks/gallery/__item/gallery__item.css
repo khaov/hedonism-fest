@@ -24,12 +24,9 @@
 
 @media screen and (max-width: 576px) {
   .gallery__item {
-    display: none;
-  }
-
-  .gallery__item:nth-child(2) {
-    display: inline;
-    grid-column: 1/2;
-    grid-row: 1/2;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+    width: 320px;
+    flex-shrink: 0;
   }
 }

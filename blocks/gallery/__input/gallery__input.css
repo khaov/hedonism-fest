@@ -1,0 +1,8 @@
+.gallery__input {
+  display: none;
+}
+
+.gallery__input:checked + .gallery__slide {
+  background-color: var(--color-dark-primary);
+  opacity: 1;
+}
