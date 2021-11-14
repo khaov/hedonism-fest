@@ -16,7 +16,6 @@
 }
 
 @media screen and (max-width: 768px) {
-
   .button_type_header_like {
     padding-left: 44px;
     padding-right: 20px;
@@ -31,5 +30,4 @@
     height: 20px;
     background-size: 20px 20px;
   }
-
 }

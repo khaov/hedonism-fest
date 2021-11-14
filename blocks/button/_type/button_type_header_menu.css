@@ -6,7 +6,6 @@
   height: 20px;
   background-image: url(../../../images/header-menu.svg);
   background-size: 20px 20px;
-
 }
 
 @media screen and (max-width: 768px) {
@@ -14,6 +13,3 @@
     display: block;
   }
 }
-
-
-

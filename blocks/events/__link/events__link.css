@@ -5,13 +5,11 @@
   border-radius: 26px;
   text-decoration: none;
   color: var(--color-dark-primary);
-
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   text-align: center;
 }
-
 
 .events__link::after {
   content: ' ';
@@ -27,4 +25,3 @@
   background-position: right;
   background-repeat: no-repeat;
 }
-
