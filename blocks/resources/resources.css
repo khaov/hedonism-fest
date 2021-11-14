@@ -1,9 +1,8 @@
-.resources {
-  padding-top: 0;
-}
-
 @media screen and (max-width: 576px) {
   .resources {
-    padding-top: 40px;
+    margin-bottom: 0;
+    padding-top: var(--section-space-top);
+    padding-bottom: var(--section-space-bottom);
+    background-color: var(--color-light-secondary);
   }
 }

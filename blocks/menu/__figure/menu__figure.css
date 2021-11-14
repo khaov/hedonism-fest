@@ -1,5 +1,5 @@
 .menu__figure {
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -7,4 +7,10 @@
   height: 90px;
   position: absolute;
   bottom: 64px;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__figure {
+    display: flex;
+  }
 }

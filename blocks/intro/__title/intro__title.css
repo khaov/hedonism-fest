@@ -2,12 +2,10 @@
   width: 315px;
   height: 228px;
   object-fit: contain;
-
   grid-row: 1;
   grid-column: 1;
   align-self: center;
-
-  background-image: url(../../../images/first-screen-title-desctop.svg);
+  background-image: url("../../../images/first-screen-title-desctop.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -24,11 +22,9 @@
 
 @media screen and (max-width: 320px){
   .intro__title {
-    background-image: url(../../../images/first-screen-title-mob.svg);
+    background-image: url("../../../images/first-screen-title-mob.svg");
     width: 210px;
     height: 152px;
-    /*align-self: flex-start; */
     margin-top: 175px;
   }
 }
-

@@ -10,8 +10,6 @@
   min-height: 104px;
 }
 
-
-
 @media  screen and (max-width: 1440px) {
   .events__title {
     font-size: calc(32px + (48 - 32) * (100vw - 320px) / (1440 - 320));
@@ -19,12 +17,9 @@
   }
 }
 
-
 @media  screen and (max-width: 320px) {
   .events__title {
     font-size: 32px;
     line-height: 36px;
   }
 }
-
-

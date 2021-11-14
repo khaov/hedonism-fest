@@ -1,7 +1,8 @@
 .footer__link-icon {
+  display: inline;
   min-width: 24px;
   height: 24px;
-  background-image: url('../../../images/link-icon.svg');
+  background-image: url("../../../images/link-icon.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

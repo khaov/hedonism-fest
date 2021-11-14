@@ -1,5 +1,6 @@
 .menu {
   display: none;
+  height: 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -7,8 +8,10 @@
     display: none;
     height: calc(100vh - 68px);
     min-height: 480px;
+    min-width: 360px;
     width: 100%;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     flex-direction: column;
     box-sizing: border-box;
     position: relative;

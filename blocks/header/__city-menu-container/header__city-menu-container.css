@@ -1,0 +1,22 @@
+.header__city-menu-container {
+  width: 300px;
+  display: none;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  background-color: #fff;
+  position: absolute;
+  top: 80px;
+  left: 150px;
+  overflow: hidden;
+  z-index: 2;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, .7);
+}
+
+@media screen and (max-width: 768px) {
+  .header__city-menu-container {
+    top: 60px;
+    left: 130px;
+  }
+}

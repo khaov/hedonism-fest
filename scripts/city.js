@@ -1,13 +1,12 @@
 const cardTemplate = document.querySelector('.card__template').content;
 
-
 // Создание карточки мероприятия
 function createCard(dataCity) {
 
   const cardElement = cardTemplate.querySelector('.events__list-item').cloneNode(true);
 
   const cardEvent = cardElement.querySelector('.event-card');
-  cardEvent.setAttribute('aria-label', dataCity.link);
+  cardEvent.setAttribute('aria-label', dataCity.alt);
 
   const cardImage = cardElement.querySelector('.event-card__main-picture');
   cardImage.src = dataCity.image;
@@ -31,12 +30,10 @@ function createCard(dataCity) {
   const cardCount = cardElement.querySelector('.count');
   cardCount.textContent = dataCity.count;
 
-  const cardLike = cardElement.querySelector('.event-card__button_type_like');
+  const cardLike = cardElement.querySelector('.event-card__like');
   cardLike.addEventListener('click', (evt) => {
-    evt.classList.toggle('event-card__button_type_like_active');
+    cardLike.classList.toggle('event-card__like_active');
   });
-
-  console.log(cardElement);
 
   return cardElement;
 }
@@ -49,10 +46,6 @@ function loadCards(cityData) {
   const activeCityData = cityData.filter(item => {
     return item.active === 'true';
   });
-
-  console.log(activeCityData);
-
-  console.log(activeCityData[0]['data']);
 
   let resCards = [];
   activeCityData[0]['data'].forEach(item => {

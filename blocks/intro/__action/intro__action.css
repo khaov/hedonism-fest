@@ -2,10 +2,8 @@
   grid-row: 1;
   grid-column: 1;
   align-self: flex-end;
-
   display: flex;
   flex-direction: column;
   gap: 8px;
   align-items: center;
-
 }

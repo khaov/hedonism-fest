@@ -1,7 +1,15 @@
 .menu__goback {
-  display: flex;
+  display: none;
   align-items: center;
   height: 40px;
   column-gap: 8px;
   margin-bottom: 20px;
+  padding: 0 20px 0;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .menu__goback {
+    display: flex;
+  }
 }
