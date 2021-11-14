@@ -6,10 +6,17 @@
   position: relative;
   background-color: #fff;
   position: absolute;
-  top: 60px;
-  left: 135px;
+  top: 80px;
+  left: 150px;
   overflow: hidden;
   z-index: 2;
   border-radius: 10px;
-  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, .7);
+}
+
+@media screen and (max-width: 768px) {
+  .header__city-menu-container {
+    top: 60px;
+    left: 130px;
+  }
 }
