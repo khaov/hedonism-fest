@@ -41,7 +41,6 @@
 @import url(../blocks/header/__city-menu-items/header__city-menu-items.css);
 @import url(../blocks/header/__city-menu-item/header__city-menu-item.css);
 @import url(../blocks/header/__city-menu-item/_type/header__city-menu-item_type_active.css);
-@import url(../blocks/header/__city-menu-item-container/header__city-menu-item-container.css);
 @import url(../blocks/header/__city-menu-container/_opened/header__city-menu-container_opened.css);
 
 @import url(../blocks/intro/intro.css);

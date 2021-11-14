@@ -102,7 +102,10 @@ function createHeaderMenuItems(dataCity) {
 
     itemButton.addEventListener('click', (evt) => {
 
-      if (itemButton.classList.contains('header__city-menu-item_type_active')) return;
+      if (itemButton.classList.contains('header__city-menu-item_type_active')) {
+        headerMenuCity.classList.remove('header__city-menu-container_opened');
+        return;
+      }
 
       // смена активности кнопки
       itemButton.classList.add('header__city-menu-item_type_active');
