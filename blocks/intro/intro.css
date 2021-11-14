@@ -2,7 +2,7 @@
   min-height: 760px;
   max-width: 1440px;
   margin: 0;
-  background-image: url(../../images/first-screen-background-desctop.svg);
+  background-image: url("../../images/first-screen-background-desctop.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,6 +19,6 @@
 
 @media screen  and (max-width: 700px) {
   .intro {
-    background-image: url(../../images/first-screen-background-mob.svg);
+    background-image: url("../../images/first-screen-background-mob.svg");
   }
 }

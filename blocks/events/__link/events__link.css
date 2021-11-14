@@ -16,12 +16,9 @@
   padding-left: 8px;
   width: 24px;
   height: 12.59px;
-
   display: inline-block;
-
   vertical-align: middle;
-
-  background-image: url(../../../images/Vector.svg);
+  background-image: url("../../../images/Vector.svg");
   background-position: right;
   background-repeat: no-repeat;
 }

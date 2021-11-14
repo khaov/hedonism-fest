@@ -10,7 +10,7 @@
   right: 8px;
   top: 8px;
   background-color: var(--color-light-primary);
-  background-image: url(../../../images/like.svg);
+  background-image: url("../../../images/like.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 24.01px 21.1px;

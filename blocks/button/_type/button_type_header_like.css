@@ -10,7 +10,7 @@
   position: absolute;
   top: 12px;
   left: 26px;
-  background-image: url(../../../images/like.svg);
+  background-image: url("../../../images/like.svg");
   width: 24px;
   height: 24px;
 }

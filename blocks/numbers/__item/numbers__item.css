@@ -31,7 +31,7 @@
   width: 221.5px;
   height: 64.5px;
   background-color: transparent;
-  background-image: url('../../../images/numbers-decoration-curl.svg');
+  background-image: url("../../../images/numbers-decoration-curl.svg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -50,7 +50,7 @@
   width: 87.5px;
   height: 143.5px;
   background-color: transparent;
-  background-image: url('../../../images/numbers-decoration-splash.svg');
+  background-image: url("../../../images/numbers-decoration-splash.svg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: contain;

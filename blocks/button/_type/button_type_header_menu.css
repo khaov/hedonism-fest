@@ -4,7 +4,7 @@
   background-color: transparent;
   width: 20px;
   height: 20px;
-  background-image: url(../../../images/header-menu.svg);
+  background-image: url("../../../images/header-menu.svg");
   background-size: 20px 20px;
 }
 
