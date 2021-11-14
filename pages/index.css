@@ -1,17 +1,19 @@
 /* Vendor */
 
-@import url(../debug.css); /* удалить перед ревью */
-
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/section/section.css);
+
+/* Dafault styles */
 
 @import url(../blocks/title/title.css);
 @import url(../blocks/title/_type/title_type_popup.css);
 @import url(../blocks/title/_type/title_type_form.css);
 @import url(../blocks/subtitle/subtitle.css);
 @import url(../blocks/link/link.css);
+
+/* Buttons */
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_type/button_type_link.css);
@@ -25,10 +27,14 @@
 @import url(../blocks/button/_type/button_type_payment.css);
 @import url(../blocks/button/_color/button_color_primary.css);
 
+/* Page */
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__popup/page__popup.css);
 @import url(../blocks/page/__content/page__content.css);
 @import url(../blocks/page/__position/page__position.css);
+
+/* Header */
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__location/header__location.css);
@@ -43,18 +49,13 @@
 @import url(../blocks/header/__city-menu-item/_type/header__city-menu-item_type_active.css);
 @import url(../blocks/header/__city-menu-container/_opened/header__city-menu-container_opened.css);
 
+/* Intro */
+
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__action/intro__action.css);
 @import url(../blocks/intro/__action-label/intro__action-label.css);
 @import url(../blocks/intro/__action-link/intro__action-link.css);
-
-@import url(../blocks/about/about.css);
-@import url(../blocks/about/__title/about__title.css);
-@import url(../blocks/about/__item/about__item.css);
-@import url(../blocks/about/__text/about__text.css);
-@import url(../blocks/about/__description/about__description.css);
-@import url(../blocks/about/__link/about__link.css);
 
 /* Info */
 
@@ -63,6 +64,32 @@
 @import url(../blocks/info/__description/info__description.css);
 @import url(../blocks/info/__paragraph/info__paragraph.css);
 @import url(../blocks/info/__button/info__button.css);
+
+/* Evtnts list */
+
+@import url(../blocks/events/events.css);
+@import url(../blocks/events/__title/events__title.css);
+@import url(../blocks/events/__links/events__links.css);
+@import url(../blocks/events/__list-item/events__list-item.css);
+@import url(../blocks/events/__link/events__link.css);
+@import url(../blocks/events/__cards/events__cards.css);
+@import url(../blocks/events/__link-all/events__link-all.css);
+@import url(../blocks/events/__place/_space-around/events__place_space-around.css);
+
+/* Evtnts card */
+
+@import url(../blocks/event-card/event-card.css);
+@import url(../blocks/event-card/__main-picture/event-card__main-picture.css);
+@import url(../blocks/event-card/__content/event-card__content.css);
+@import url(../blocks/event-card/__link/event-card__link.css);
+@import url(../blocks/event-card/__like/event-card__like.css);
+@import url(../blocks/event-card/__like/_active/event-card__like_active.css);
+@import url(../blocks/event-card/__picture-link/event-card__picture-link.css);
+@import url(../blocks/event-card/__content-item/event-card__content-item.css);
+@import url(../blocks/event-card/__text/event-card__text.css);
+@import url(../blocks/event-card/__title/event-card__title.css);
+@import url(../blocks/event-card/__subtitle/event-card__subtitle.css);
+@import url(../blocks/event-card/__adress/event-card__adress.css);
 
 /* Numbers */
 
@@ -110,29 +137,7 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__link-icon/footer__link-icon.css);
 
-/* Ссылки на события*/
-
-@import url(../blocks/events/events.css);
-@import url(../blocks/events/__title/events__title.css);
-@import url(../blocks/events/__links/events__links.css);
-@import url(../blocks/events/__list-item/events__list-item.css);
-@import url(../blocks/events/__link/events__link.css);
-@import url(../blocks/events/__cards/events__cards.css);
-@import url(../blocks/events/__link-all/events__link-all.css);
-@import url(../blocks/events/__place/_space-around/events__place_space-around.css);
-
-@import url(../blocks/event-card/event-card.css);
-@import url(../blocks/event-card/__main-picture/event-card__main-picture.css);
-@import url(../blocks/event-card/__content/event-card__content.css);
-@import url(../blocks/event-card/__link/event-card__link.css);
-@import url(../blocks/event-card/__like/event-card__like.css);
-@import url(../blocks/event-card/__like/_active/event-card__like_active.css);
-@import url(../blocks/event-card/__picture-link/event-card__picture-link.css);
-@import url(../blocks/event-card/__content-item/event-card__content-item.css);
-@import url(../blocks/event-card/__text/event-card__text.css);
-@import url(../blocks/event-card/__title/event-card__title.css);
-@import url(../blocks/event-card/__subtitle/event-card__subtitle.css);
-@import url(../blocks/event-card/__adress/event-card__adress.css);
+/* Popup */
 
 @import url(../blocks/popup/popup.css);
 @import url(../blocks/popup/_opened/popup_opened.css);
@@ -152,6 +157,8 @@
 @import url(../blocks/popup/__form/popup__form.css);
 @import url(../blocks/popup/__button-container/popup__button-container.css);
 @import url(../blocks/popup/__decor/popup__decor.css);
+
+/* Menu */
 
 @import url(../blocks/menu/menu.css);
 @import url(../blocks/menu/__subtitle/menu__subtitle.css);

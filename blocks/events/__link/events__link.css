@@ -5,26 +5,20 @@
   border-radius: 26px;
   text-decoration: none;
   color: var(--color-dark-primary);
-
   font-weight: 500;
   font-size: 18px;
   line-height: 24px;
   text-align: center;
 }
 
-
 .events__link::after {
   content: ' ';
   padding-left: 8px;
   width: 24px;
   height: 12.59px;
-
   display: inline-block;
-
   vertical-align: middle;
-
-  background-image: url(../../../images/Vector.svg);
+  background-image: url("../../../images/Vector.svg");
   background-position: right;
   background-repeat: no-repeat;
 }
-

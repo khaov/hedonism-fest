@@ -10,13 +10,12 @@
   position: absolute;
   top: 12px;
   left: 26px;
-  background-image: url(../../../images/like.svg);
+  background-image: url("../../../images/like.svg");
   width: 24px;
   height: 24px;
 }
 
 @media screen and (max-width: 768px) {
-
   .button_type_header_like {
     padding-left: 44px;
     padding-right: 20px;
@@ -31,5 +30,4 @@
     height: 20px;
     background-size: 20px 20px;
   }
-
 }
