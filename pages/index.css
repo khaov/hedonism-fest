@@ -30,13 +30,19 @@
 /* Page */
 
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__popup/page__popup.css);
+@import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/page/__content/page__content.css);
-@import url(../blocks/page/__position/page__position.css);
+@import url(../blocks/page/__footer/page__footer.css);
+@import url(../blocks/page/__popup/page__popup.css);
+
+/* Container */
+
+@import url(../blocks/container/container.css);
 
 /* Header */
 
 @import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__location/header__location.css);
 @import url(../blocks/header/__navigation/header__navigation.css);
 @import url(../blocks/header/__navigation-links/header__navigation-links.css);
@@ -60,6 +66,7 @@
 /* Info */
 
 @import url(../blocks/info/info.css);
+@import url(../blocks/info/__container/info__container.css);
 @import url(../blocks/info/_theme/info_theme_accent.css);
 @import url(../blocks/info/__description/info__description.css);
 @import url(../blocks/info/__paragraph/info__paragraph.css);
@@ -68,6 +75,7 @@
 /* Evtnts list */
 
 @import url(../blocks/events/events.css);
+@import url(../blocks/__container/events__container.css);
 @import url(../blocks/events/__title/events__title.css);
 @import url(../blocks/events/__links/events__links.css);
 @import url(../blocks/events/__list-item/events__list-item.css);
@@ -124,6 +132,7 @@
 /* Footer */
 
 @import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__text/footer__text.css);
 @import url(../blocks/footer/__text/_email/footer__text_email.css);

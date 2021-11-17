@@ -1,24 +1,6 @@
 .footer {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin: 0;
   padding-top: var(--section-space-top);
   padding-bottom: var(--section-space-bottom);
-  background-color: #EBE9ED;
-  column-gap: 40px;
-}
-
-@media screen and (max-width: 768px) {
-  .footer {
-    column-gap: 20px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .footer {
-    flex-direction: column;
-    justify-content: left;
-    background-color: #ffd400;
-  }
+  background-color: var(--color-light-secondary);
+  
 }
