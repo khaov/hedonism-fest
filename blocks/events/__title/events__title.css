@@ -1,5 +1,6 @@
 .events__title {
   margin: 0;
+  padding: 0 40px 0 40px;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
@@ -12,14 +13,18 @@
 
 @media  screen and (max-width: 1440px) {
   .events__title {
-    font-size: calc(32px + (48 - 32) * (100vw - 320px) / (1440 - 320));
-    line-height: calc(36px + (52 - 36) * (100vw - 320px) / (1440 - 320));
+    font-size: calc(32px + (48 - 32) * (100vw - 360px) / (1440 - 360));
+    line-height: calc(36px + (52 - 36) * (100vw - 360px) / (1440 - 360));
+    padding-right: calc(20px + (40 - 20) * (100vw - 360px) / (1440 - 360));
+    padding-left: calc(20px + (40 - 20) * (100vw - 360px) / (1440 - 360));
   }
 }
 
-@media  screen and (max-width: 320px) {
+@media  screen and (max-width: 360px) {
   .events__title {
     font-size: 32px;
     line-height: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }

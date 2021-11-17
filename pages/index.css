@@ -74,7 +74,7 @@
 @import url(../blocks/events/__link/events__link.css);
 @import url(../blocks/events/__cards/events__cards.css);
 @import url(../blocks/events/__link-all/events__link-all.css);
-@import url(../blocks/events/__place/_space-around/events__place_space-around.css);
+@import url(../blocks/events/__button-wrapper/events__button-wrapper.css);
 
 /* Evtnts card */
 
