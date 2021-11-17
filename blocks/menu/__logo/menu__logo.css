@@ -1,16 +1,17 @@
-.menu__figure {
+.menu__logo {
   display: none;
   flex-direction: column;
-  justify-content: center;
+  justify-content:flex-end;
   align-items: center;
   align-self: center;
-  height: 90px;
-  position: absolute;
-  bottom: 64px;
+  flex-basis: 500px;
+  text-decoration: none;
+  padding: 0 0 20px 0;
+  margin-bottom: 15px;
 }
 
 @media screen and (max-width: 768px) {
-  .menu__figure {
+  .menu__logo {
     display: flex;
   }
 }
