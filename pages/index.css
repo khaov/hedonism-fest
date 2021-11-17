@@ -181,3 +181,5 @@
 @import url(../blocks/menu/__goback/menu__goback.css);
 @import url(../blocks/menu/__active-city/menu__active-city.css);
 @import url(../blocks/menu/__item/_type/menu__item_type_active.css);
+@import url(../blocks/menu/__item-container/menu__item-container.css);
+@import url(../blocks/menu/__item-city/menu__item-city.css);

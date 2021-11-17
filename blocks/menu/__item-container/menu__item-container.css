@@ -1,0 +1,7 @@
+.menu__item-container {
+  cursor: pointer;
+}
+
+.menu__item-container:hover {
+  box-shadow: 0 0 1px 1px rgba(221, 221, 221, .9);
+}

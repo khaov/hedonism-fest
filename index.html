@@ -266,7 +266,7 @@
 
     <!-- Popup payment -->
 
-    <section class="popup page__popup popup_opened">
+    <section class="popup page__popup">
       <div class="popup__container">
         <span class="popup__decor"></span>
         
@@ -329,7 +329,7 @@
 
     <section class="menu menu_primary">
       <h3 class="menu__subtitle">ваш город</h3>
-      <button class="menu__active-city link">назад</button>
+      <button class="menu__active-city link"></button>
       <h3 class="menu__subtitle">навигация</h3>
       <nav>
         <ul class="menu__navigation">
@@ -362,7 +362,9 @@
     <!-- menu city template -->
 
     <template class="menu-city__template">
-      <li class="menu__item-container"><a href="#" class="menu__item link"></a></li>
+      <li class="menu__item-container">
+        <button class="menu__item-city link"></button>        
+      </li>
     </template>
 
     <!-- card template -->
