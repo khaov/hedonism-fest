@@ -21,8 +21,8 @@
 @import url(../blocks/button/_type/button_type_circle.css);
 @import url(../blocks/button/_type/button_type_location.css);
 @import url(../blocks/button/_type/button_type_navigation.css);
-@import url(../blocks/button/_type/button_type_header_like.css);
-@import url(../blocks/button/_type/button_type_header_menu.css);
+@import url(../blocks/button/_type/button_type_header-like.css);
+@import url(../blocks/button/_type/button_type_header-menu.css);
 @import url(../blocks/button/_type/button_type_amount.css);
 @import url(../blocks/button/_type/button_type_payment.css);
 @import url(../blocks/button/_color/button_color_primary.css);
