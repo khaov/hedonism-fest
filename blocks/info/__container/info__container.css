@@ -1,0 +1,12 @@
+.info__container {
+  display: grid;
+  grid-template-columns: repeat(2, fit-content(420px));
+  column-gap: 40px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 767px) {
+  .info__container {
+    grid-template-columns: 1fr;
+  }
+}
