@@ -3,13 +3,15 @@ const containerGallery = document.querySelector('.gallery__items');
 const dots = document.querySelector('.gallery__slider');
 const picturesGallery = document.querySelectorAll('.gallery__image');
 
+let scrollLeft = 0;
+
 containerGallery.addEventListener('scroll',(e)=>{
 
   clearTimeout(e.target.scrollTimeoutID);
 
   e.target.scrollTimeoutID = setTimeout(function() {
 
-      const indexPicture = ~~(containerGallery.scrollLeft / GALLERY_CONTAINER_WIDTH);
+      const indexPicture = ~~(scrollLeft / GALLERY_CONTAINER_WIDTH);
 
       const radioInput = document.querySelector(`.gallery__input[value='${indexPicture}']`);
       if (radioInput) {
@@ -33,7 +35,8 @@ for (let indexPicture = 0; indexPicture < picturesGallery.length; indexPicture++
   }
 
   dotInput.addEventListener('change', (e) => {
-    containerGallery.scrollLeft = GALLERY_CONTAINER_WIDTH * e.currentTarget.value;
+	scrollLeft = GALLERY_CONTAINER_WIDTH * Number(e.currentTarget.value) + 20;  
+    containerGallery.scrollLeft = scrollLeft;
   });
 
   dots.append(dotInput);
