@@ -10,15 +10,15 @@ const header = document.querySelector('.header');
 
 // Buttuns amount
 const buttonsAmountElement = document.querySelector('.popup__buttons-amount');
-const buttonsAmount_100 = buttonsAmountElement.querySelector('.amount_100');
-const buttonsAmount_300 = buttonsAmountElement.querySelector('.amount_300');
-const buttonsAmount_500 = buttonsAmountElement.querySelector('.amount_500');
-const buttonsAmount_1000 = buttonsAmountElement.querySelector('.amount_1000');
-const buttonsAmount_3000 = buttonsAmountElement.querySelector('.amount_3000');
-const buttonsAmountHead = buttonsAmountElement.querySelector('.popup__input_hend_amount');
+const buttonsAmount_100 = buttonsAmountElement.querySelector('.button_amount_100');
+const buttonsAmount_300 = buttonsAmountElement.querySelector('.button_amount_300');
+const buttonsAmount_500 = buttonsAmountElement.querySelector('.button_amount_500');
+const buttonsAmount_1000 = buttonsAmountElement.querySelector('.button_amount_1000');
+const buttonsAmount_3000 = buttonsAmountElement.querySelector('.button_amount_3000');
+const buttonsAmountHead = buttonsAmountElement.querySelector('.popup__input-text_type_amount');
 
 // Input form
-const inputEmailElement = document.querySelector('.popup__input_email');
+const inputEmailElement = document.querySelector('.popup__input-text_type_email');
 const radioButtonBankCard = document.querySelector('.bank-card');
 
 function openPopup() {

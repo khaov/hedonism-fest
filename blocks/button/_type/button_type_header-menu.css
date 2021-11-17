@@ -1,6 +1,8 @@
-.button_type_header_menu {
+.button_type_header-menu {
   display: none;
-  border: 0;
+  border-radius: 0;
+  padding: 0;
+  border: none;
   background-color: transparent;
   width: 20px;
   height: 20px;
@@ -9,7 +11,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .button_type_header_menu {
+  .button_type_header-menu {
     display: block;
   }
 }

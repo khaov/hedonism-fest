@@ -31,10 +31,10 @@
           <li><a href="/" class="button button_type_link button_type_navigation link">о фестивале</a></li>
         </ul>
       </nav>
-      <a href="/" class="button button_type_link button_type_header_like header__like link">хочу пойти</a>
+      <a href="/" class="button button_type_link button_type_header-like header__like link">хочу пойти</a>
       <button class="button button_type_button button_color_primary header__button-help link"
         type="button">поддержать</button>
-      <button class="button_type_button button_type_header_menu link" type="button"></button>
+      <button class="button button_type_button button_type_header-menu link" type="button"></button>
     </header>
 
     <!-- Content -->
@@ -258,27 +258,27 @@
             <button class="popup__button-close" type="button"></button>
           </div>
 
-          <label class="title title_type_form">сумма</label>
+          <h3 class="title title_type_form">сумма</h3>
           <ul class="popup__buttons-amount">
-            <li><button class="button button_type_button button_type_amount button_color_primary amount_100 link"
+            <li><button class="button button_type_button button_type_amount button_color_primary button_amount_100 link"
                 type="button" value="100">100 ₽</button></li>
-            <li><button class="button button_type_button button_type_amount amount_300 link" type="button" value="300">300
+            <li><button class="button button_type_button button_type_amount button_amount_300 link" type="button" value="300">300
                 ₽</button></li>
-            <li><button class="button button_type_button button_type_amount amount_500 link" type="button" value="500">500
+            <li><button class="button button_type_button button_type_amount button_amount_500 link" type="button" value="500">500
                 ₽</button></li>
-            <li><button class="button button_type_button button_type_amount amount_1000 link" type="button"
+            <li><button class="button button_type_button button_type_amount button_amount_1000 link" type="button"
                 value="1000">1000 ₽</button></li>
-            <li><button class="button button_type_button button_type_amount amount_3000 link" type="button"
+            <li><button class="button button_type_button button_type_amount button_amount_3000 link" type="button"
                 value="3000">3000 ₽</button></li>
             <li><input type="text" name="hend_amount"
-                class="popup__input-text popup__input-text_type_amount popup__input_hend_amount"
+                class="popup__input-text popup__input-text_type_amount"
                 placeholder="другая сумма"></li>
           </ul>
           <input type="hidden" name="amount" class="popup__input-amount" value="">
-          <label for="email" class="title title_type_form">email</label>
-          <input type="email" name="email" id="email" class="popup__input-text popup__input_email"
+          <h3 for="email" class="title title_type_form">email</h3>
+          <input type="email" name="email" id="email" class="popup__input-text popup__input-text_type_email"
             placeholder="укажите почту для отправки чека">
-          <label class="title title_type_form">способ оплаты</label>
+          <h3 class="title title_type_form">способ оплаты</h3>
           <fieldset class="popup__form-input-container">
             <label class="popup__form-label" for="bank-card">
               <input type="radio" name="payment-options" id="bank-card" class="popup__form-radio bank-card"
@@ -292,9 +292,7 @@
               <span class="popup__form-label-text">PayPal</span>
             </label>
           </fieldset>
-          <p class="popup__payment-text">Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями <a href="#"
-              class="popup__payment-link link">оферты, политики</a> в отношении обработки и защиты персональных данных и
-            даёте <a href="#" class="popup__payment-link link">согласие</a> на их обработку</p>
+          <p class="popup__payment-text">Нажимая кнопку «пожертвовать» вы соглашаетесь с условиями <a href="#" class="popup__payment-link link">оферты</a>, <a href="#" class="popup__payment-link link">политики</a> в отношении обработки и защиты персональных данных и даёте <a href="#" class="popup__payment-link link">согласие</a> на их обработку</p>
         </div>
         <div class="popup__button-container">
           <button class="button button_type_button button_type_payment button_color_primary link" type="submit">перейти к оплате</button>

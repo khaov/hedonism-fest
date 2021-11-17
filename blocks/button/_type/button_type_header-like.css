@@ -1,11 +1,11 @@
-.button_type_header_like {
+.button_type_header-like {
   border: none;
   border-radius: 0;
   position: relative;
   padding-left: 56px;
 }
 
-.button_type_header_like::before {
+.button_type_header-like::before {
   content: "";
   position: absolute;
   top: 12px;
@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .button_type_header_like {
+  .button_type_header-like {
     padding-left: 44px;
     padding-right: 20px;
     font-size: 16px;
@@ -24,7 +24,7 @@
 
   }
 
-  .button_type_header_like::before {
+  .button_type_header-like::before {
     left: 20px;
     width: 20px;
     height: 20px;
