@@ -9,6 +9,7 @@
   display: grid;
   grid-template-rows: 100%;
   justify-items: center;
+  margin-top: 88px;
 }
 
 @media screen and (max-width: 768px) {
