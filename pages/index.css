@@ -164,14 +164,10 @@
 @import url(../blocks/menu/__subtitle/menu__subtitle.css);
 @import url(../blocks/menu/__navigation/menu__navigation.css);
 @import url(../blocks/menu/__item/menu__item.css);
-@import url(../blocks/menu/__arrow-button/menu__arrow-button.css);
-@import url(../blocks/menu/__arrow-button/_left/menu__arrow-button_left.css);
-@import url(../blocks/menu/__figure/menu__figure.css);
+@import url(../blocks/menu/__logo/menu__logo.css);
 @import url(../blocks/menu/__image/menu__image.css);
 @import url(../blocks/menu/__donate/menu__donate.css);
 @import url(../blocks/menu/__opened/menu__opened.css);
 @import url(../blocks/menu/__goback/menu__goback.css);
-@import url(../blocks/menu/__goback-text/menu__goback-text.css);
 @import url(../blocks/menu/__active-city/menu__active-city.css);
-@import url(../blocks/menu/__figcaption/menu__figcaption.css);
 @import url(../blocks/menu/__item/_type/menu__item_type_active.css);
