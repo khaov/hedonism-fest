@@ -1,0 +1,19 @@
+.popup__info-container {
+  background-color: var(--color-light-primary);
+  padding: 0 40px;
+  border-radius: 24px 24px 0 0;    
+}
+
+@media screen and (max-width: 590px) {
+  .popup__info-container {    
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    scroll-snap-type: y;    
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .popup__info-container {
+    padding: 0 20px;
+  }
+}
