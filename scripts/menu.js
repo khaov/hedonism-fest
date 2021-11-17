@@ -1,5 +1,5 @@
 const menuPopup = document.querySelector('.menu_primary');
-const openMenuButton = document.querySelector('.button_type_header_menu');
+const openMenuButton = document.querySelector('.button_type_header-menu');
 const openMenuCityButton = document.querySelector('.menu__active-city');
 const closeMenuCityButton = document.querySelector('.menu__goback');
 const menuCityPopup = document.querySelector('.menu_city');
