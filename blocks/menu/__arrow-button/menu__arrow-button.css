@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
   .menu__arrow-button {
     display: block;
     width: 20px;

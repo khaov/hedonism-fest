@@ -20,7 +20,7 @@
   box-shadow: 0 0 1px 1px rgba(221, 221, 221, .9);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
   .menu__item {
     display: flex;
   }
