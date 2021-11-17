@@ -3,10 +3,10 @@
   height: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 768px) {
   .menu {
-    height: calc(100vh - 88px);
-    min-height: 480px;
+    display: none;
+    height: calc(100vh - 68px);
     min-width: 360px;
     width: 100%;
     padding-top: 20px;
@@ -16,15 +16,9 @@
     position: relative;
     background-color: #fff;
     position: fixed;
-    top: 88px;
-    overflow: hidden;
-    z-index: 2;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .menu {
-    height: calc(100vh - 68px);
     top: 68px;
+    overflow: hidden;
+    overflow-y: scroll;
+    z-index: 2;
   }
 }

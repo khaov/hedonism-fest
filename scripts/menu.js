@@ -59,7 +59,10 @@ function createMenuItems(dataCity) {
 
       if (itemButton.classList.contains('menu__item_type_active')) return;
 
-      // смена активности кнопки
+      // удаляю предыдущую активность
+      document.querySelector('.menu__item_type_active').classList.remove('menu__item_type_active');
+
+      // добавляю новую активности
       itemButton.classList.add('menu__item_type_active');
 
       // смена города в хедере
@@ -67,10 +70,6 @@ function createMenuItems(dataCity) {
 
       // загрузка мероприятий
       loadCardsForChangeCity(dataCity);
-
-      // закрытие меню
-      menuCityPopup.classList.remove('menu__opened');
-      menuPopup.classList.remove('menu__opened');
 
     });
 
