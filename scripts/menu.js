@@ -46,7 +46,7 @@ function createMenuItems(dataCity) {
   dataCity.forEach(item => {
 
     const itemElement = itemMenuCityTemplate.querySelector('.menu__item-container').cloneNode(true);
-    const itemButton = itemElement.querySelector('.menu__item');
+    const itemButton = itemElement.querySelector('.menu__item-city');
 
     if(activeCity.textContent === item.сity) {
       itemButton.classList.add('menu__item_type_active');
@@ -55,7 +55,7 @@ function createMenuItems(dataCity) {
     }
     itemButton.textContent = item.сity;
 
-    itemButton.addEventListener('click', (evt) => {
+    itemElement.addEventListener('click', (evt) => {
 
       if (itemButton.classList.contains('menu__item_type_active')) return;
 
@@ -73,7 +73,7 @@ function createMenuItems(dataCity) {
 
     });
 
-    resultItems.push(itemButton);
+    resultItems.push(itemElement);
 
   });
 
@@ -89,7 +89,7 @@ function createHeaderMenuItems(dataCity) {
   const resultItems = [];
   dataCity.forEach(item => {
 
-    const itemElement = itemHeaderMenuCityTemplate.querySelector('.header__city-menu-item-container').cloneNode(true);
+    const itemElement = itemHeaderMenuCityTemplate.querySelector('.header__city-menu-item-container').cloneNode(true);    
     const itemButton = itemElement.querySelector('.header__city-menu-item');
 
     if(activeCity.textContent === item.сity) {
@@ -120,7 +120,7 @@ function createHeaderMenuItems(dataCity) {
 
     });
 
-    resultItems.push(itemButton);
+    resultItems.push(itemElement);
 
   });
 
