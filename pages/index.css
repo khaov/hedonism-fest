@@ -75,7 +75,7 @@
 /* Evtnts list */
 
 @import url(../blocks/events/events.css);
-@import url(../blocks/__container/events__container.css);
+@import url(../blocks/events/__container/events__container.css);
 @import url(../blocks/events/__title/events__title.css);
 @import url(../blocks/events/__links/events__links.css);
 @import url(../blocks/events/__list-item/events__list-item.css);
