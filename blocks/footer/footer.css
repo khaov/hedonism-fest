@@ -4,3 +4,9 @@
   background-color: var(--color-light-secondary);
   
 }
+
+@media screen and (max-width: 576px) {
+  .footer {
+    background-color: #ffd400;
+  }
+}
