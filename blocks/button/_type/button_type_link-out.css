@@ -1,5 +1,5 @@
 
-.button_decoration_arrowBehind::after {
+.button_type_link-out::after {
     content: '';  
     position: absolute;
     top: 18px;
@@ -12,7 +12,7 @@
   }
   
   @media screen and (max-width: 768px) {    
-    .button_decoration_arrowBehind::after {
+    .button_type_link-out::after {
       width: 24px;
       height: 10.49px;
       background-size: 24px 10.49px;
