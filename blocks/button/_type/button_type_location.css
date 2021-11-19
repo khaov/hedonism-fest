@@ -18,10 +18,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .button_type_location {
-    font-size: 16px;
-    line-height: 20px;
-  }
   .button_type_location::before {
     background-image: url("../../../images/location.svg");
     background-size: 20px 20px;

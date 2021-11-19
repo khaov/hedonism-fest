@@ -1,24 +1,27 @@
 .events__link {
-  /*height: 48px; */
-  padding: 12px 24px 12px 24px;
-  border: 2px solid;
-  border-radius: 26px;
-  text-decoration: none;
-  color: var(--color-dark-primary);
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  text-align: center;
+  padding-right: 56px;
 }
 
 .events__link::after {
-  content: ' ';
-  padding-left: 8px;
+  content: '';  
+  position: absolute;
+  top: 18px;
+  right: 22px;
   width: 24px;
-  height: 12.59px;
-  display: inline-block;
-  vertical-align: middle;
-  background-image: url("../../../images/Vector.svg");
-  background-position: right;
+  height: 14px;    
+  background-image: url("../../../images/Vector.svg");  
   background-repeat: no-repeat;
+  background-size: 24px 14px;
+}
+
+@media screen and (max-width: 768px) {
+  .events__link {
+    padding-right: 44px;
+  }
+  .events__link::after {
+    width: 24px;
+    height: 10.49px;
+    background-size: 24px 10.49px;
+    right: 18px;
+  }
 }
