@@ -6,6 +6,7 @@
   gap: 20px;
   grid-template-columns: 310px 310px 1fr 310px;
   grid-template-rows: 310px 1fr 310px;
+ 
 }
 
 .gallery__items::-webkit-scrollbar{
@@ -22,7 +23,7 @@
 
 @media screen and (max-width: 576px) {
   .gallery__items {
-    margin: 17px auto 0 auto;
+    margin: 17px auto -22px auto;
     display: flex;
     gap: 0;
     width: 320px;
