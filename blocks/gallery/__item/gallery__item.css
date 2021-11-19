@@ -1,6 +1,6 @@
 .gallery__item {
   margin: 0;
-  padding: 0;
+  padding: 0;  
 }
 
 .gallery__item:nth-child(2) {
