@@ -19,9 +19,6 @@
   .button_type_header-like {
     padding-left: 44px;
     padding-right: 20px;
-    font-size: 16px;
-    line-height: 20px;
-
   }
 
   .button_type_header-like::before {
