@@ -26,6 +26,7 @@
 @import url(../blocks/button/_type/button_type_amount.css);
 @import url(../blocks/button/_type/button_type_payment.css);
 @import url(../blocks/button/_color/button_color_primary.css);
+@import url(../blocks/button/_decoration/button_decoration_arrowBehind.css);
 
 /* Page */
 

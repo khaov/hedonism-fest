@@ -1,0 +1,21 @@
+
+.button_decoration_arrowBehind::after {
+    content: '';  
+    position: absolute;
+    top: 18px;
+    right: 22px;
+    width: 24px;
+    height: 14px;    
+    background-image: url("../../../images/Vector.svg");  
+    background-repeat: no-repeat;
+    background-size: 24px 14px;
+  }
+  
+  @media screen and (max-width: 768px) {    
+    .button_decoration_arrowBehind::after {
+      width: 24px;
+      height: 10.49px;
+      background-size: 24px 10.49px;
+      right: 18px;
+    }
+  }
