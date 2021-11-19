@@ -11,12 +11,15 @@ containerGallery.addEventListener('scroll',(e)=>{
 
   e.target.scrollTimeoutID = setTimeout(function() {
 
+      scrollLeft = containerGallery.scrollLeft +40;
       const indexPicture = ~~(scrollLeft / GALLERY_CONTAINER_WIDTH);
 
       const radioInput = document.querySelector(`.gallery__input[value='${indexPicture}']`);
       if (radioInput) {
         radioInput.checked = true;
       }
+		
+		
 
   }, 180);
 });
