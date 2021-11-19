@@ -1,27 +1,11 @@
 .events__link {
-  padding-right: 56px;
-}
-
-.events__link::after {
-  content: '';  
-  position: absolute;
-  top: 18px;
-  right: 22px;
-  width: 24px;
-  height: 14px;    
-  background-image: url("../../../images/Vector.svg");  
-  background-repeat: no-repeat;
-  background-size: 24px 14px;
+  padding-right: 52px;
+  line-height: 22px;
 }
 
 @media screen and (max-width: 768px) {
   .events__link {
-    padding-right: 44px;
-  }
-  .events__link::after {
-    width: 24px;
-    height: 10.49px;
-    background-size: 24px 10.49px;
-    right: 18px;
+    padding-right: 43px;
+    line-height: 17px;
   }
 }
