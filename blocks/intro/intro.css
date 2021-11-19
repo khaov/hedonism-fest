@@ -2,11 +2,12 @@
   display: grid;
   grid-template-rows: 100%;
   justify-items: center;
+
   min-height: calc(100vh - 88px);
   background-image: url("../../images/first-screen-background-desctop.svg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 1440px;
 }
 
 @media screen and (max-width: 768px) {
@@ -15,8 +16,10 @@
   }
 }
 
-@media screen  and (max-width: 700px) {
+@media screen  and (max-width: 567px) {
   .intro {
     background-image: url("../../images/first-screen-background-mob.svg");
+    background-position: top center;
+    background-size: 360px;
   }
 }
