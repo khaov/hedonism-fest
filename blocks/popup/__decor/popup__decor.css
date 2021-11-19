@@ -4,6 +4,7 @@
   width: 40px;
   height: 4px;
   background-color: var(--color-dark-secondary);
+  margin-top: 16px;
   margin-bottom: 16px;
   border-radius: 100px;
 }

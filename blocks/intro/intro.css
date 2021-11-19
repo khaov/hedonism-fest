@@ -1,19 +1,17 @@
 .intro {
-  min-height: 760px;
-  max-width: 1440px;
-  margin: 0;
+  display: grid;
+  grid-template-rows: 100%;
+  justify-items: center;
+  min-height: calc(100vh - 88px);
   background-image: url("../../images/first-screen-background-desctop.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: grid;
-  grid-template-rows: 100%;
-  justify-items: center;
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin-top: 68px;
+    min-height: calc(100vh - 68px);
   }
 }
 

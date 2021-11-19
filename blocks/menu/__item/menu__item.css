@@ -1,8 +1,7 @@
 .menu__item {
   display: none;
-  width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-between;  
   height: 52px;
   padding: 0 20px 0;
   font-weight: 500;
@@ -20,7 +19,7 @@
   box-shadow: 0 0 1px 1px rgba(221, 221, 221, .9);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
   .menu__item {
     display: flex;
   }

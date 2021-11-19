@@ -1,5 +1,5 @@
 const menuPopup = document.querySelector('.menu_primary');
-const openMenuButton = document.querySelector('.button_type_header_menu');
+const openMenuButton = document.querySelector('.button_type_header-menu');
 const openMenuCityButton = document.querySelector('.menu__active-city');
 const closeMenuCityButton = document.querySelector('.menu__goback');
 const menuCityPopup = document.querySelector('.menu_city');
@@ -46,7 +46,7 @@ function createMenuItems(dataCity) {
   dataCity.forEach(item => {
 
     const itemElement = itemMenuCityTemplate.querySelector('.menu__item-container').cloneNode(true);
-    const itemButton = itemElement.querySelector('.menu__item');
+    const itemButton = itemElement.querySelector('.menu__item-city');
 
     if(activeCity.textContent === item.сity) {
       itemButton.classList.add('menu__item_type_active');
@@ -55,11 +55,14 @@ function createMenuItems(dataCity) {
     }
     itemButton.textContent = item.сity;
 
-    itemButton.addEventListener('click', (evt) => {
+    itemElement.addEventListener('click', (evt) => {
 
       if (itemButton.classList.contains('menu__item_type_active')) return;
 
-      // смена активности кнопки
+      // удаляю предыдущую активность
+      document.querySelector('.menu__item_type_active').classList.remove('menu__item_type_active');
+
+      // добавляю новую активности
       itemButton.classList.add('menu__item_type_active');
 
       // смена города в хедере
@@ -68,13 +71,9 @@ function createMenuItems(dataCity) {
       // загрузка мероприятий
       loadCardsForChangeCity(dataCity);
 
-      // закрытие меню
-      menuCityPopup.classList.remove('menu__opened');
-      menuPopup.classList.remove('menu__opened');
-
     });
 
-    resultItems.push(itemButton);
+    resultItems.push(itemElement);
 
   });
 
@@ -90,7 +89,7 @@ function createHeaderMenuItems(dataCity) {
   const resultItems = [];
   dataCity.forEach(item => {
 
-    const itemElement = itemHeaderMenuCityTemplate.querySelector('.header__city-menu-item-container').cloneNode(true);
+    const itemElement = itemHeaderMenuCityTemplate.querySelector('.header__city-menu-item-container').cloneNode(true);    
     const itemButton = itemElement.querySelector('.header__city-menu-item');
 
     if(activeCity.textContent === item.сity) {
@@ -121,7 +120,7 @@ function createHeaderMenuItems(dataCity) {
 
     });
 
-    resultItems.push(itemButton);
+    resultItems.push(itemElement);
 
   });
 

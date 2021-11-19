@@ -1,3 +1,11 @@
 .header__location {
   margin-left: 40px;
+  width: 280px;
 }
+
+@media screen and (max-width: 870px) {
+  .header__location {
+    min-width: 220px;
+  }
+}
+

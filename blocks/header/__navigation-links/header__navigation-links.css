@@ -7,5 +7,11 @@
   padding: 0;
   position: relative;
   top: 2px;
-  right: 6px;
+  left: 0;
+}
+
+@media screen and (max-width: 1280px) {
+  .header__navigation-links {
+    column-gap: 0;
+  }
 }

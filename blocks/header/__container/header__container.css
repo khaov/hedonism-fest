@@ -1,0 +1,12 @@
+.header__container {
+  display: flex;
+  align-items: center;
+  height: 88px;
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  .header__container {
+    height: 68px;
+  }
+}

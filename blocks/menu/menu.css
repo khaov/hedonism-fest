@@ -3,13 +3,11 @@
   height: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1280px) {
   .menu {
     display: none;
     height: calc(100vh - 68px);
-    min-height: 480px;
-    min-width: 360px;
-    width: 100%;
+    width: 360px;
     padding-top: 20px;
     padding-bottom: 20px;
     flex-direction: column;
@@ -17,8 +15,24 @@
     position: relative;
     background-color: #fff;
     position: fixed;
+    top: 88px;
+    right: 0px;
+    overflow-y: auto;
+    scroll-snap-type: y; 
+    z-index: 1;
+    box-shadow: 0px -8px 32px rgba(59, 55, 72, 0.12);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .menu {
     top: 68px;
-    overflow: hidden;
-    z-index: 2;
+    min-width: 360px;    
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .menu {
+    width: 100%;
   }
 }
