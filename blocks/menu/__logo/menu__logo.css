@@ -1,0 +1,17 @@
+.menu__logo {
+  display: none;
+  flex-direction: column;
+  justify-content:flex-end;
+  align-items: center;
+  align-self: center;
+  flex-basis: 500px;
+  text-decoration: none;
+  padding: 0 0 20px 0;
+  margin-bottom: 15px;
+}
+
+@media screen and (max-width: 1280px) {
+  .menu__logo {
+    display: flex;
+  }
+}

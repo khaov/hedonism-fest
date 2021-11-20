@@ -1,24 +1,29 @@
 .intro {
-  min-height: 760px;
-  max-width: 1440px;
-  margin: 0;
-  background-image: url("../../images/first-screen-background-desctop.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: grid;
   grid-template-rows: 100%;
   justify-items: center;
+  padding-top: var(--section-space-top);
+  padding-bottom: var(--section-space-bottom);
+  min-height: calc(100vh - 88px);
+  background-image: url("../../images/first-screen-background-desctop.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1440px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    margin-top: 68px;
+    min-height: calc(100vh - 68px);
   }
 }
 
-@media screen  and (max-width: 700px) {
+@media screen  and (max-width: 567px) {
   .intro {
+    padding-top: 0;
+    padding-bottom: 0;
     background-image: url("../../images/first-screen-background-mob.svg");
+    background-position: top center;
+    background-size: 360px;
   }
 }

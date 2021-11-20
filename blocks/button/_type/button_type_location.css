@@ -4,6 +4,7 @@
   position: relative;
   padding-left: 56px;
   text-overflow: ellipsis;
+  display: flex;
 }
 
 .button_type_location::before {
@@ -17,10 +18,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .button_type_location {
-    font-size: 16px;
-    line-height: 20px;
-  }
   .button_type_location::before {
     background-image: url("../../../images/location.svg");
     background-size: 20px 20px;
@@ -29,8 +26,10 @@
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 630px) {
   .button_type_location {
     display: none;
+    margin: 0;
+    padding: 0;
   }
 }

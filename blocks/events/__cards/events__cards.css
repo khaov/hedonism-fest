@@ -1,5 +1,5 @@
 .events__cards {
-  margin: 24px 40px 0 40px;
+  margin: 40px 0 0 40px;
   padding: 0;
   padding-bottom: 24px;
   list-style: none;
@@ -21,16 +21,26 @@
 }
 
 @media  screen and (max-width: 1440px) {
-  .events__cards {
-    margin-right: calc(0px + (40 - 0) * (100vw - 360px) / (1440 - 360));
+  .events__cards {    
     margin-left: calc(0px + (40 - 0) * (100vw - 360px) / (1440 - 360));
+    padding-bottom: calc(18px + (24 - 18) * (100vw - 360px) / (1440 - 360));
   }
+
+  .events__cards::-webkit-scrollbar-track {
+    margin-left: calc(20px - 20 * (100vw - 360px) / (1440 - 360));
+    margin-right: calc(20px - 20 * (100vw - 360px) / (1440 - 360));
+  }
+
 }
 
 @media  screen and (max-width: 360px) {
   .events__cards {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-bottom: 20px;
+    margin-left: 0px;    
+    padding-bottom: 18px;
+  }
+  
+  .events__cards::-webkit-scrollbar-track {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }

@@ -5,7 +5,7 @@
   padding-right: 18px;
 }
 
-@media screen and (max-width: 1225px) {
+@media screen and (max-width: 1280px) {
   .button_type_navigation {
     display: none;
   }

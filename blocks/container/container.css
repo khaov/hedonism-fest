@@ -1,0 +1,9 @@
+.container {
+  width: 100%;
+  min-width: calc(360px - 17px);
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-left: var(--section-space-left);
+  padding-right: var(--section-space-right);
+  box-sizing: border-box;
+}

@@ -3,10 +3,17 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 22px;
+  padding: 40px 40px 0;  
 }
 
 @media screen and (max-width: 590px) {
   .popup__header {
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (max-width: 468px) {
+  .popup__header {
+    padding: 0 20px;
   }
 }

@@ -1,7 +1,4 @@
 .section {
   margin-top: var(--section-space-top);
   margin-bottom: var(--section-space-bottom);
-  padding-left: var(--section-space-left);
-  padding-right: var(--section-space-right);
-  box-sizing: border-box;
 }

@@ -1,0 +1,25 @@
+.button_type_header-menu {
+  display: none;
+  border-radius: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  width: 24px;
+  height: 24px;
+  background-image: url("../../../images/header-menu.svg");
+  background-size: 24px 24px;
+}
+
+@media screen and (max-width: 1280px) {
+  .button_type_header-menu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .button_type_header-menu {
+    width: 20px;
+    height: 20px;
+    background-size: 20px 20px;
+  }
+}

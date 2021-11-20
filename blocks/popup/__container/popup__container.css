@@ -1,13 +1,19 @@
 .popup__container {
   background-color: var(--color-light-primary);
-  box-shadow: 0px 4px 12px rgba(59, 55, 72, 0.12);
-  border-radius: 24px 24px 0 0;
-  padding: 40px 40px 0;
+  box-shadow: 0px 4px 12px rgba(59, 55, 72, 0.12);  
+  border-radius: 24px;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  width: 612px;
+  min-width: 360px;   
+  max-height: calc(100vh - 86px);
+  overflow-y: auto;
+  scroll-snap-type: y;  
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 590px) {
   .popup__container {
-    padding: 16px 20px 0;
+    border-radius: 24px 24px 0 0;  
   }
 }
