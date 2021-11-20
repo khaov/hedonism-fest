@@ -7,3 +7,10 @@
   background-color: var( --color-light-primary);
   position: relative;
 }
+
+
+@media  screen and (max-width: 360px) {
+  .event-card {
+    height: 398px;
+  }
+}
