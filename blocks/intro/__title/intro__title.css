@@ -16,7 +16,7 @@
     align-self: flex-start;
     width: 210px;
     height: 152px;
-    margin-top: 175px;
+    margin-top: calc(175px - var(--section-space-top));
     background-image: url("../../../images/first-screen-title-mob.svg");
   }
 }
