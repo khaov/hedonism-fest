@@ -1,11 +1,11 @@
 .events__link {
-  padding-right: 52px;
   line-height: 22px;
+  padding-right: 20px;
 }
 
 @media screen and (max-width: 768px) {
   .events__link {
-    padding-right: 43px;
     line-height: 17px;
+    padding-right: 9px;
   }
 }
